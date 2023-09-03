@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkzapoteco=self.webpackChunkzapoteco||[]).push([[881],{6584:e=>{e.exports=JSON.parse('{"title":"Basics","description":"Learn the alphabet","slug":"/category/basics","permalink":"/zapoteco/es/docs/category/basics","navigation":{"next":{"title":"Alphabet","permalink":"/zapoteco/es/docs/alphabet/"}}}')}}]);
