@@ -2,199 +2,199 @@
 sidebar_position: 1
 ---
 
-# Alphabet
+# Alfabeto
 
 ## a
 
-| Word    | Translation |
-|---------|-------------|
-| **a**xh |             |
+| Palabra | Traducción |
+|---------|------------|
+| **a**xh | ajo        |
 
 ## b
 
-| Word     | Translation |
-|----------|-------------|
-| **b**zin | raton       |
+| Palabra  | Traducción |
+|----------|------------|
+| **b**zin | raton      |
 
 ## ch
 
-| Word     | Translation |
-|----------|-------------|
-| **ch**up | dos         |
+| Palabra  | Traducción |
+|----------|------------|
+| **ch**up | dos        |
 
 ## chh
 
-| Word        | Translation |
-|-------------|-------------|
-| **chh**ua'a | boca        |
+| Palabra     | Traducción |
+|-------------|------------|
+| **chh**ua'a | boca       |
 
 ## d
 
-| Word    | Translation |
-|---------|-------------|
-| **d**ub | pluma       |
+| Palabra | Traducción |
+|---------|------------|
+| **d**ub | pluma      |
 
 ## e
 
-| Word    | Translation |
-|---------|-------------|
-| **e**za | cereza      |
+| Palabra | Traducción |
+|---------|------------|
+| **e**za | cereza     |
 
 ## ë
 Exists but not used
 
 ## f
 
-| Word    | Translation     |
+| Palabra | Traducción      |
 |---------|-----------------|
 | **f**ok | préstamo o foco |
 
 ## g
 
-| Word   | Translation   |
-|--------|---------------|
-| **g**u | papa o camote |
+| Palabra | Traducción    |
+|---------|---------------|
+| **g**u  | papa o camote |
 
 ## i
 
-| Word   | Translation |
-|--------|-------------|
-| **i**z | año         |
+| Palabra | Traducción |
+|---------|------------|
+| **i**z  | año        |
 
 ## j
 
-| Word     | Translation     |
+| Palabra  | Traducción      |
 |----------|-----------------|
 | **j**eid | pollo o gallina |
 
 ## k
 
-| Word     | Translation |
-|----------|-------------|
-| **k**ush | puerco      |
+| Palabra  | Traducción |
+|----------|------------|
+| **k**ush | puerco     |
 
 ## l
 
-| Word      | Translation |
-|-----------|-------------|
-| **l**ulla | lengua      |
+| Palabra   | Traducción |
+|-----------|------------|
+| **l**ulla | lengua     |
 
 ## lh
 
-| Word      | Translation |
-|-----------|-------------|
-| **lh**apa | sombrero    |
+| Palabra   | Traducción |
+|-----------|------------|
+| **lh**apa | sombrero   |
 
 ## ll
 
-| Word     | Translation   |
+| Palabra  | Traducción    |
 |----------|---------------|
 | **ll**it | hueso o huevo |
 
 ## m
 
-| Word      | Translation |
-|-----------|-------------|
-| **m**echh | dinero      |
+| Palabra   | Traducción |
+|-----------|------------|
+| **m**echh | dinero     |
 
 ## n
 
-| Word      | Translation |
-|-----------|-------------|
-| **n**ia'a | pie         |
+| Palabra   | Traducción |
+|-----------|------------|
+| **n**ia'a | pie        |
 
 ## nh
 
-| Word     | Translation |
-|----------|-------------|
-| **nh**is | agua        |
+| Palabra  | Traducción |
+|----------|------------|
+| **nh**is | agua       |
 
 ## ñ
 
-| Word      | Translation |
-|-----------|-------------|
-| **ñ**eñen | monstro     |
+| Palabra   | Traducción |
+|-----------|------------|
+| **ñ**eñen | monstro    |
 
 ## o
 
-| Word     | Translation |
-|----------|-------------|
-| **o**n'o | si          |
+| Palabra  | Traducción |
+|----------|------------|
+| **o**n'o | si         |
 
 ## p
 
-| Word     | Translation |
-|----------|-------------|
-| **p**erh | pera        |
+| Palabra  | Traducción |
+|----------|------------|
+| **p**erh | pera       |
 
 ## r
 
-| Word    | Translation |
-|---------|-------------|
-| **r**iu |             |
+| Palabra | Traducción |
+|---------|------------|
+| **r**iu |            |
 
 ## rh
 
-| Word     | Translation |
-|----------|-------------|
-| **rh**iz | chiquito    |
+| Palabra  | Traducción |
+|----------|------------|
+| **rh**iz | chiquito   |
 
 ## s
 
-| Word    | Translation |
-|---------|-------------|
-| **s**ia | sabroso     |
+| Palabra | Traducción |
+|---------|------------|
+| **s**ia | sabroso    |
 
 ## sh
 
-| Word    | Translation |
-|---------|-------------|
-| **sh**i | diez        |
+| Palabra | Traducción |
+|---------|------------|
+| **sh**i | diez       |
 
 ## t
 
-| Word    | Translation |
-|---------|-------------|
-| **t**ap | cuatro      |
+| Palabra | Traducción |
+|---------|------------|
+| **t**ap | cuatro     |
 
 ## u
 
-| Word  | Translation |
-|-------|-------------|
-| **u** |             |
+| Palabra | Traducción |
+|---------|------------|
+| **u**   |            |
 
 ## w
 
-| Word      | Translation |
-|-----------|-------------|
-| **w**bill | sol         |
+| Palabra   | Traducción |
+|-----------|------------|
+| **w**bill | sol        |
 
 ## x
 
-| Word    | Translation |
-|---------|-------------|
-| **x**un | ocho        |
+| Palabra | Traducción |
+|---------|------------|
+| **x**un | ocho       |
 
 ## xh
 
-| Word     | Translation |
-|----------|-------------|
-| **xh**id | gato        |
+| Palabra  | Traducción |
+|----------|------------|
+| **xh**id | gato       |
 
 ## y
 
-| Word     | Translation |
-|----------|-------------|
-| **y**etj | caña        |
+| Palabra  | Traducción |
+|----------|------------|
+| **y**etj | caña       |
 
 ## z
 
-| Word   | Translation |
-|--------|-------------|
-| **z**a | frijol      |
+| Palabra | Traducción |
+|---------|------------|
+| **z**a  | frijol     |
 
 ## za'
 
-| Word     | Translation |
-|----------|-------------|
-| **za'**a | maiz 🌽     |
+| Palabra  | Traducción |
+|----------|------------|
+| **za'**a | maiz 🌽    |
