@@ -40,9 +40,6 @@ sidebar_position: 1
 |---------|------------|
 | **e**za | cereza     |
 
-## ë
-Exists but not used
-
 ## f
 
 | Palabra | Traducción      |

@@ -269,5 +269,8 @@
   "theme.tags.tagsPageTitle": {
     "message": "Etiquetas",
     "description": "The title of the tag list page"
+  },
+  "learn.the.alphabet": {
+    "message": "Aprende el alfabeto"
   }
 }

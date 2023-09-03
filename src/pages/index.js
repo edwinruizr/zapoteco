@@ -6,6 +6,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
+import Translate from "@docusaurus/Translate";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -18,7 +19,9 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/alphabet">
-            Alphabet
+              <Translate id='learn.the.alphabet'>
+                  Learn the alphabet
+              </Translate>
           </Link>
         </div>
       </div>

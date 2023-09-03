@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: View the alphabet
 ---
 
 # Alphabet
@@ -39,10 +40,6 @@ sidebar_position: 1
 | Word    | Translation      |
 |---------|------------------|
 | **e**za | (Mexican) cherry |
-
-## ë
-
-Exists but not used
 
 ## f
 
