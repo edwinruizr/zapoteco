@@ -2,14 +2,15 @@
 sidebar_position: 1
 description: View the alphabet
 ---
+import ReactPlayer from 'react-player'
 
 # Alphabet
 
 ## a
 
-| Word    | Translation |
-|---------|-------------|
-| **a**xh | garlic      |
+| Word    | Translation | Audio                                                                       |
+|---------|-------------|-----------------------------------------------------------------------------|
+| **a**xh | garlic      | <ReactPlayer height='20px' width='200px' controls url='../audio/axh.mov' /> |
 
 ## b
 
