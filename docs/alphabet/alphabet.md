@@ -68,10 +68,9 @@ import ReactPlayer from 'react-player'
 
 ## k
 
-| Word      | Translation   | Audio                                                                                                              |
-|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|
-| **k**ush  | pig           | <ReactPlayer height='60px' width='200px' controls url='../audio/kush.mov' config={{ file: {forceAudio: true} }} /> |
-| **k**uluy | young rooster |                                                                                                                    |
+| Word     | Translation | Audio                                                                                                              |
+|----------|-------------|--------------------------------------------------------------------------------------------------------------------|
+| **k**ush | pig         | <ReactPlayer height='60px' width='200px' controls url='../audio/kush.mov' config={{ file: {forceAudio: true} }} /> |
 
 ## l
 
