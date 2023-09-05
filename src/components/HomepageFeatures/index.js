@@ -29,24 +29,28 @@ const FeatureList = [
 
 function Feature({Svg, title, description, link}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-          {link &&
-              <Link
-                  className="button button--secondary button--lg"
-                  to={link}>
-                  <Translate id='learn.more'>
-                      Learn more
-                  </Translate>
-              </Link>
-          }
-      </div>
-    </div>
+          <div className={clsx('col col--4', 'card-demo', 'margin-top--md')}>
+              <div className="card item shadow--tl">
+                  <div className="card__image text--center">
+                          <Svg className={styles.featureSvg} role="img" />
+                  </div>
+                  <div className="card__body text--center padding-horiz--md">
+                      <h4>{title}</h4>
+                      <small>{description}</small>
+                  </div>
+                  {link &&
+                      <div className="card__footer">
+                      <Link
+                          className="button button--secondary button--block"
+                          to={link}>
+                          <Translate id='learn.more'>
+                              Learn more
+                          </Translate>
+                      </Link>
+                      </div>
+                  }
+              </div>
+          </div>
   );
 }
 
