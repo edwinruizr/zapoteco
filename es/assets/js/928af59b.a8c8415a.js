@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkzapoteco=self.webpackChunkzapoteco||[]).push([[719],{1592:e=>{e.exports=JSON.parse('{"title":"Lo esencial","description":"Aprende el alfabeto","slug":"/category/basics","permalink":"/zapoteco/es/docs/category/basics","navigation":{"next":{"title":"Alfabeto","permalink":"/zapoteco/es/docs/basics/alphabet"}}}')}}]);
