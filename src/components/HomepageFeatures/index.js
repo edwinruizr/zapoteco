@@ -28,6 +28,18 @@ const FeatureList = [
 ];
 
 function Feature({Svg, title, description, link}) {
+    let desc;
+    if (link) {
+        desc = <Link
+                className="button button--secondary button--block"
+                to={link}>
+                <Translate id='learn.more'>
+                    Learn more...
+                </Translate>
+            </Link>;
+    } else {
+        desc = <small>{description}</small>
+    }
   return (
           <div className={clsx('col col--4', 'card-demo', 'margin-top--md')}>
               <div className="card item shadow--tl">
@@ -36,19 +48,10 @@ function Feature({Svg, title, description, link}) {
                   </div>
                   <div className="card__body text--center padding-horiz--md">
                       <h4>{title}</h4>
-                      <small>{description}</small>
                   </div>
-                  {link &&
                       <div className="card__footer">
-                      <Link
-                          className="button button--secondary button--block"
-                          to={link}>
-                          <Translate id='learn.more'>
-                              Learn more
-                          </Translate>
-                      </Link>
+                          {desc}
                       </div>
-                  }
               </div>
           </div>
   );
