@@ -272,5 +272,8 @@
   },
   "learn.the.alphabet": {
     "message": "Aprende el alfabeto"
+  },
+  "learn.more": {
+    "message": "Aprende más"
   }
 }

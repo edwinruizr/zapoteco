@@ -67,7 +67,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           {
             type: 'localeDropdown',
@@ -89,8 +89,12 @@ const config = {
             items: [
               {
                 label: 'Alphabet',
-                to: '/docs/alphabet',
+                to: '/docs/basics/alphabet',
               },
+              {
+                label: 'Numbers',
+                to: '/docs/basics/numbers'
+              }
             ],
           },
           {

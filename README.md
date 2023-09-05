@@ -18,9 +18,9 @@ The `npm run start` command builds your website locally and serves it through a 
 
 ## Translating
 Copy the file to the i18n/es/docusaurus-plugin-content-docs/current/ folder:
-For example say we are going to translate `docs/alphabet/alphabet.md`:
+For example say we are going to translate `docs/basics/alphabet.md`:
 ```bash 
-cp docs/alphabet/alphabet.md i18n/es/docusaurus-plugin-content-docs/current/alphabet/alphabet.md
+cp docs/basics/basics.md i18n/es/docusaurus-plugin-content-docs/current/basics/basics.md
 ```
 You would then translate `i18n/es/docusaurus-plugin-content-docs/current/alphabet/alphabet.md` in Spanish.
 
