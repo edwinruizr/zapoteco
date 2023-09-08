@@ -275,5 +275,14 @@
   },
   "learn.more": {
     "message": "Aprende más"
+  },
+  "Garlic": {
+    "message": "Ajo"
+  },
+  "Mouse": {
+    "message": "Raton"
+  },
+  "Two": {
+    "message": "Dos"
   }
 }

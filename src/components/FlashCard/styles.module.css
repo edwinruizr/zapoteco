@@ -1,0 +1,27 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.carta {
+  position: absolute;
+  background-size: cover;
+  width: 200px;
+  height: 240px;
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+.contenedor {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
