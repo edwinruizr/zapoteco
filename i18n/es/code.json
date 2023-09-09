@@ -312,8 +312,14 @@
   "loanOrBulb": {
     "message": "préstamo o foco"
   },
+  "bulb": {
+    "message": "foco"
+  },
   "potato": {
     "message": "papa o camote"
+  },
+  "sweet.potato": {
+  "message": "camote"
   },
   "year": {
     "message": "año"
@@ -332,6 +338,12 @@
   },
   "boneOrEgg": {
     "message": "hueso o huevo"
+  },
+  "egg": {
+    "message": "huevo"
+  },
+  "bone": {
+    "message": "hueso"
   },
   "money": {
     "message": "dinero"
