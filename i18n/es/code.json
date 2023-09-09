@@ -270,6 +270,9 @@
     "message": "Etiquetas",
     "description": "The title of the tag list page"
   },
+  "tagline.translate": {
+    "message": "Variante San Francisco Cajonos"
+  },
   "learn.the.alphabet": {
     "message": "Aprende el alfabeto"
   },
@@ -278,6 +281,12 @@
   },
   "Alphabet": {
     "message": "Alfabeto"
+  },
+  "Numbers": {
+    "message": "Números"
+  },
+  "Flashcards": {
+    "message": "Tarjetas didácticas"
   },
   "Garlic": {
     "message": "Ajo"

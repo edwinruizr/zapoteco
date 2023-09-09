@@ -24,7 +24,17 @@ const FeatureList = [
             Learn to pronounce the numbers.
         </>
     ),
-  }
+  },
+    {
+        title: 'Flashcards',
+        link: '/docs/basics/flashcards',
+        Svg: require('@site/static/img/cards.svg').default,
+        description: (
+            <>
+                Test your knowledge
+            </>
+        ),
+    },
 ];
 
 function Feature({Svg, title, description, link}) {
@@ -47,7 +57,7 @@ function Feature({Svg, title, description, link}) {
                           <Svg className={styles.featureSvg} role="img" />
                   </div>
                   <div className="card__body text--center padding-horiz--md">
-                      <h4>{title}</h4>
+                      <h4><Translate id={title}/></h4>
                   </div>
                       <div className="card__footer">
                           {desc}
