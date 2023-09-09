@@ -270,10 +270,140 @@
     "message": "Etiquetas",
     "description": "The title of the tag list page"
   },
+  "tagline.translate": {
+    "message": "Variante San Francisco Cajonos"
+  },
   "learn.the.alphabet": {
     "message": "Aprende el alfabeto"
   },
   "learn.more": {
     "message": "Aprende más"
+  },
+  "Alphabet": {
+    "message": "Alfabeto"
+  },
+  "Numbers": {
+    "message": "Números"
+  },
+  "Flashcards": {
+    "message": "Tarjetas didácticas"
+  },
+  "Garlic": {
+    "message": "Ajo"
+  },
+  "Mouse": {
+    "message": "Raton"
+  },
+  "Two": {
+    "message": "Dos"
+  },
+  "word": {
+    "message": "Palabra"
+  },
+  "garlic": {
+    "message": "ajo"
+  },
+  "mouse": {
+    "message": "raton"
+  },
+  "two": {
+    "message": "dos"
+  },
+  "mouth": {
+    "message": "boca"
+  },
+  "feather": {
+    "message": "pluma"
+  },
+  "cherry": {
+    "message": "cereza"
+  },
+  "loanOrBulb": {
+    "message": "préstamo o foco"
+  },
+  "bulb": {
+    "message": "foco"
+  },
+  "potato": {
+    "message": "papa o camote"
+  },
+  "sweet.potato": {
+  "message": "camote"
+  },
+  "year": {
+    "message": "año"
+  },
+  "chicken": {
+    "message": "pollo o gallina"
+  },
+  "pig": {
+    "message": "puerco"
+  },
+  "tongue": {
+    "message": "lengua"
+  },
+  "hat": {
+    "message": "sombrero"
+  },
+  "boneOrEgg": {
+    "message": "hueso o huevo"
+  },
+  "egg": {
+    "message": "huevo"
+  },
+  "bone": {
+    "message": "hueso"
+  },
+  "money": {
+    "message": "dinero"
+  },
+  "foot": {
+    "message": "pie"
+  },
+  "water": {
+    "message": "agua"
+  },
+  "boogeyman": {
+    "message": "monstro"
+  },
+  "yes": {
+    "message": "si"
+  },
+  "pear": {
+    "message": "pera"
+  },
+  "cricket": {
+    "message": "grillo"
+  },
+  "little": {
+    "message": "chiquito"
+  },
+  "delicious": {
+    "message": "sabroso"
+  },
+  "ten": {
+    "message": "diez"
+  },
+  "four": {
+    "message": "cuatro"
+  },
+  "sun": {
+    "message": "sol"
+  },
+  "eight": {
+    "message": "ocho"
+  },
+  "cat": {
+    "message": "gato"
+  },
+  "sugarcane": {
+    "message": "caña"
+  },
+  "bean": {
+    "message": "frijol"
+  },
+  "corn": {
+    "message": "maiz"
   }
 }
+

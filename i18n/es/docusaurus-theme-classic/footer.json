@@ -13,7 +13,7 @@
   },
   "link.item.label.Alphabet": {
     "message": "Alfabeto",
-    "description": "The label of footer link with label=Alphabet linking to /docs/alphabet"
+    "description": "The label of footer link with label=Alphabet linking to /docs/basics/alphabet"
   },
   "link.item.label.Instagram": {
     "message": "Instagram",
@@ -26,5 +26,13 @@
   "copyright": {
     "message": "Copyright © 2023 Construido con Docusaurus.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Numbers": {
+    "message": "Números",
+    "description": "The label of footer link with label=Numbers linking to /docs/basics/numbers"
+  },
+  "link.item.label.Flashcards": {
+    "message": "Tarjetas didácticas",
+    "description": "The label of footer link with label=Flashcards linking to /docs/basics/flashcards"
   }
 }
