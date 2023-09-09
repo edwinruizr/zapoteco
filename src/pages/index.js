@@ -9,11 +9,12 @@ import Translate from "@docusaurus/Translate";
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero sfc', styles.heroBanner)}>
+    <header className={clsx('hero', styles.sfc, styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle"><Translate id={siteConfig.customFields.taglineTranslationId}>{siteConfig.tagline}</Translate></p>
-        <div className={styles.buttons}/>
+        <p className="hero__subtitle">
+          <Translate id={siteConfig.customFields.taglineTranslationId}>{siteConfig.tagline}</Translate>
+        </p>
       </div>
     </header>
   );

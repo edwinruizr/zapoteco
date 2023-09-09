@@ -3,13 +3,6 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-.sfc {
-  background-image: url('/img/sfc.png');
-  background-size: cover;
-  background-position-y: 25%;
-  background-repeat: no-repeat;
-  color: white;
-}
 
 /* You can override the default Infima variables here. */
 :root {

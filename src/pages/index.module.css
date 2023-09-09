@@ -2,6 +2,15 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+.sfc {
+  background-image: url('/img/sfc.png');
+  background-size: cover;
+  background-position-y: 20%;
+  background-position-x: center;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  color: white;
+}
 
 .heroBanner {
   padding: 4rem 0;

@@ -7,6 +7,12 @@ import Translate from "@docusaurus/Translate";
 
 # Alphabet
 
+:::note
+
+When on mobile, audio will **only play** when on ring mode. [Reference](https://support.apple.com/en-mide/HT203017).
+
+:::
+
 ## a
 
 | <Translate id="word">Word</Translate> | <Translate id="translation">Translation</Translate> |

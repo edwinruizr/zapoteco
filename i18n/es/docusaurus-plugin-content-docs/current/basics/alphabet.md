@@ -7,6 +7,12 @@ import Translate from "@docusaurus/Translate";
 
 # Alfabeto
 
+:::note
+
+Cuando estés en el móvil, el audio **sólo se reproducirá** cuando estés en modo timbre. [Referencia](https://support.apple.com/es-us/HT203017).
+
+:::
+
 ## a
 
 | <Translate id="word">Word</Translate> | <Translate id="translation">Translation</Translate> |
