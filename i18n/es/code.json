@@ -276,6 +276,9 @@
   "learn.more": {
     "message": "Aprende más"
   },
+  "Alphabet": {
+    "message": "Alfabeto"
+  },
   "Garlic": {
     "message": "Ajo"
   },
@@ -284,5 +287,102 @@
   },
   "Two": {
     "message": "Dos"
+  },
+  "word": {
+    "message": "Palabra"
+  },
+  "garlic": {
+    "message": "ajo"
+  },
+  "mouse": {
+    "message": "raton"
+  },
+  "two": {
+    "message": "dos"
+  },
+  "mouth": {
+    "message": "boca"
+  },
+  "feather": {
+    "message": "pluma"
+  },
+  "cherry": {
+    "message": "cereza"
+  },
+  "loanOrBulb": {
+    "message": "préstamo o foco"
+  },
+  "potato": {
+    "message": "papa o camote"
+  },
+  "year": {
+    "message": "año"
+  },
+  "chicken": {
+    "message": "pollo o gallina"
+  },
+  "pig": {
+    "message": "puerco"
+  },
+  "tongue": {
+    "message": "lengua"
+  },
+  "hat": {
+    "message": "sombrero"
+  },
+  "boneOrEgg": {
+    "message": "hueso o huevo"
+  },
+  "money": {
+    "message": "dinero"
+  },
+  "foot": {
+    "message": "pie"
+  },
+  "water": {
+    "message": "agua"
+  },
+  "boogeyman": {
+    "message": "monstro"
+  },
+  "yes": {
+    "message": "si"
+  },
+  "pear": {
+    "message": "pera"
+  },
+  "cricket": {
+    "message": "grillo"
+  },
+  "little": {
+    "message": "chiquito"
+  },
+  "delicious": {
+    "message": "sabroso"
+  },
+  "ten": {
+    "message": "diez"
+  },
+  "four": {
+    "message": "cuatro"
+  },
+  "sun": {
+    "message": "sol"
+  },
+  "eight": {
+    "message": "ocho"
+  },
+  "cat": {
+    "message": "gato"
+  },
+  "sugarcane": {
+    "message": "caña"
+  },
+  "bean": {
+    "message": "frijol"
+  },
+  "corn": {
+    "message": "maiz"
   }
 }
+

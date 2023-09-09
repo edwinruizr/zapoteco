@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './styles.module.css';
 import { AiFillPlayCircle } from 'react-icons/ai';
 import useSound from 'use-sound';
 import axh from '@site/static/audio/axh.mp3';
@@ -139,5 +140,5 @@ export default function Audio({src}) {
     const toggle = () => {
         isPlaying ? stop(): play()
     }
-  return <AiFillPlayCircle onClick={toggle}/>;
+  return <AiFillPlayCircle className={styles.audio} onClick={toggle}/>;
 }

@@ -2,198 +2,199 @@
 sidebar_position: 1
 description: Ver el alfabeto
 ---
-import ReactPlayer from 'react-player'
+import Audio  from '@site/src/components/Audio/index.js';
+import Translate from "@docusaurus/Translate";
 
 # Alfabeto
 
 ## a
 
-| Palabra | Traducción | Audio                                                                                                                |
-|---------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **a**xh | ajo        | <ReactPlayer height='60px' width='200px' controls url='../../audio/axh.mov' config={{ file: {forceAudio: true} }} /> |
+| <Translate id="word">Word</Translate> | <Translate id="translation">Translation</Translate> |
+|---------------------------------------|-----------------------------------------------------|
+| <Audio src="axh" /> **a**xh           | <Translate id="garlic"/>                            |
 
 ## b
 
-| Palabra  | Traducción | Audio                                                                                                                 |
-|----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **b**zin | raton      | <ReactPlayer height='60px' width='200px' controls url='../../audio/bzin.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation             |
+|------------------------------|-------------------------|
+| <Audio src="bzin"/> **b**zin | <Translate id="mouse"/> |
 
 ## ch
 
-| Palabra  | Traducción | Audio                                                                                                                 |
-|----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **ch**up | dos        | <ReactPlayer height='60px' width='200px' controls url='../../audio/chup.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation           |
+|------------------------------|-----------------------|
+| <Audio src="chup"/> **ch**up | <Translate id="two"/> |
 
 ## chh
 
-| Palabra     | Traducción | Audio                                                                                                                   |
-|-------------|------------|-------------------------------------------------------------------------------------------------------------------------|
-| **chh**ua'a | boca       | <ReactPlayer height='60px' width='200px' controls url='../../audio/chhuaa.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                              | Translation             |
+|-----------------------------------|-------------------------|
+| <Audio src="chhuaa"/> **chh**ua'a | <Translate id="mouth"/> |
 
 ## d
 
-| Palabra | Traducción | Audio                                                                                                                |
-|---------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **d**ub | pluma      | <ReactPlayer height='60px' width='200px' controls url='../../audio/dub.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                       | Translation               |
+|----------------------------|---------------------------|
+| <Audio src="dub"/> **d**ub | <Translate id="feather"/> |
 
 ## e
 
-| Palabra | Traducción | Audio                                                                                                                |
-|---------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **e**za | cereza     | <ReactPlayer height='60px' width='200px' controls url='../../audio/eza.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                       | Translation                                          |
+|----------------------------|------------------------------------------------------|
+| <Audio src="eza"/> **e**za | <Translate id="cherry" >(Mexican) cherry</Translate> |
 
 ## f
 
-| Palabra | Traducción      | Audio                                                                                                                |
-|---------|-----------------|----------------------------------------------------------------------------------------------------------------------|
-| **f**ok | préstamo o foco | <ReactPlayer height='60px' width='200px' controls url='../../audio/fok.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                       | Translation                                               |
+|----------------------------|-----------------------------------------------------------|
+| <Audio src="fok"/> **f**ok | <Translate id="loanOrBulb">loan or light bulb</Translate> |
 
 ## g
 
-| Palabra | Traducción    | Audio                                                                                                               |
-|---------|---------------|---------------------------------------------------------------------------------------------------------------------|
-| **g**u  | papa o camote | <ReactPlayer height='60px' width='200px' controls url='../../audio/gu.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                     | Translation                                       |
+|--------------------------|---------------------------------------------------|
+| <Audio src="gu"/> **g**u | <Translate id="potato">(sweet) potato</Translate> |
 
 ## i
 
-| Palabra | Traducción | Audio                                                                                                               |
-|---------|------------|---------------------------------------------------------------------------------------------------------------------|
-| **i**z  | año        | <ReactPlayer height='60px' width='200px' controls url='../../audio/iz.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                     | Translation            |
+|--------------------------|------------------------|
+| <Audio src="iz"/> **i**z | <Translate id="year"/> |
 
 ## j
 
-| Palabra  | Traducción      | Audio                                                                                                                 |
-|----------|-----------------|-----------------------------------------------------------------------------------------------------------------------|
-| **j**eid | pollo o gallina | <ReactPlayer height='60px' width='200px' controls url='../../audio/jeid.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation               |
+|------------------------------|---------------------------|
+| <Audio src="jeid"/> **j**eid | <Translate id="chicken"/> |
 
 ## k
 
-| Palabra  | Traducción | Audio                                                                                                                 |
-|----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **k**ush | puerco     | <ReactPlayer height='60px' width='200px' controls url='../../audio/kush.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation           |
+|------------------------------|-----------------------|
+| <Audio src="kush"/> **k**ush | <Translate id="pig"/> |
 
 ## l
 
-| Palabra   | Traducción | Audio                                                                                                                  |
-|-----------|------------|------------------------------------------------------------------------------------------------------------------------|
-| **l**ulla | lengua     | <ReactPlayer height='60px' width='200px' controls url='../../audio/lulla.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                           | Translation              |
+|--------------------------------|--------------------------|
+| <Audio src="lulla"/> **l**ulla | <Translate id="tongue"/> |
 
 ## lh
 
-| Palabra   | Traducción | Audio                                                                                                                  |
-|-----------|------------|------------------------------------------------------------------------------------------------------------------------|
-| **lh**apa | sombrero   | <ReactPlayer height='60px' width='200px' controls url='../../audio/lhapa.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                           | Translation           |
+|--------------------------------|-----------------------|
+| <Audio src="lhapa"/> **lh**apa | <Translate id="hat"/> |
 
 ## ll
 
-| Palabra  | Traducción    | Audio                                                                                                                 |
-|----------|---------------|-----------------------------------------------------------------------------------------------------------------------|
-| **ll**it | hueso o huevo | <ReactPlayer height='60px' width='200px' controls url='../../audio/llit.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation                                       |
+|------------------------------|---------------------------------------------------|
+| <Audio src="llit"/> **ll**it | <Translate id="boneOrEgg">bone or egg</Translate> |
 
 ## m
 
-| Palabra   | Traducción | Audio                                                                                                                  |
-|-----------|------------|------------------------------------------------------------------------------------------------------------------------|
-| **m**echh | dinero     | <ReactPlayer height='60px' width='200px' controls url='../../audio/mechh.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                           | Translation              |
+|--------------------------------|--------------------------|
+| <Audio src="mechh"/> **m**echh | <Translate id="money" /> |
 
 ## n
 
-| Palabra   | Traducción | Audio                                                                                                                 |
-|-----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **n**ia'a | pie        | <ReactPlayer height='60px' width='200px' controls url='../../audio/niaa.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                          | Translation            |
+|-------------------------------|------------------------|
+| <Audio src="niaa"/> **n**ia'a | <Translate id="foot"/> |
 
 ## nh
 
-| Palabra  | Traducción | Audio                                                                                                                 |
-|----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **nh**is | agua       | <ReactPlayer height='60px' width='200px' controls url='../../audio/nhis.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation             |
+|------------------------------|-------------------------|
+| <Audio src="nhis"/> **nh**is | <Translate id="water"/> |
 
 ## ñ
 
-| Palabra   | Traducción | Audio                                                                                                                  |
-|-----------|------------|------------------------------------------------------------------------------------------------------------------------|
-| **ñ**eñen | monstro    | <ReactPlayer height='60px' width='200px' controls url='../../audio/nenen.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                           | Translation                                      |
+|--------------------------------|--------------------------------------------------|
+| <Audio src="nenen"/> **ñ**eñen | <Translate id="boogeyman">boogeyman?</Translate> |
 
 ## o
 
-| Palabra  | Traducción | Audio                                                                                                                |
-|----------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **o**n'o | si         | <ReactPlayer height='60px' width='200px' controls url='../../audio/ono.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                        | Translation           |
+|-----------------------------|-----------------------|
+| <Audio src="ono"/> **o**n'o | <Translate id="yes"/> |
 
 ## p
 
-| Palabra  | Traducción | Audio                                                                                                                 |
-|----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **p**erh | pera       | <ReactPlayer height='60px' width='200px' controls url='../../audio/perh.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation            |
+|------------------------------|------------------------|
+| <Audio src="perh"/> **p**erh | <Translate id="pear"/> |
 
 ## r
 
-| Palabra | Traducción | Audio                                                                                                                |
-|---------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **r**iu | grillo     | <ReactPlayer height='60px' width='200px' controls url='../../audio/riu.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                       | Translation               |
+|----------------------------|---------------------------|
+| <Audio src="riu"/> **r**iu | <Translate id="cricket"/> |
 
 ## rh
 
-| Palabra  | Traducción | Audio                                                                                                                 |
-|----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **rh**iz | chiquito   | <ReactPlayer height='60px' width='200px' controls url='../../audio/rhiz.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation               |
+|------------------------------|---------------------------|
+| <Audio src="rhiz"/> **rh**iz | <Translate id="little" /> |
 
 ## s
 
-| Palabra | Traducción | Audio                                                                                                                |
-|---------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **s**ia | sabroso    | <ReactPlayer height='60px' width='200px' controls url='../../audio/sia.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                       | Translation                 |
+|----------------------------|-----------------------------|
+| <Audio src="sia"/> **s**ia | <Translate id="delicious"/> |
 
 ## sh
 
-| Palabra | Traducción | Audio                                                                                                                |
-|---------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **sh**i | diez       | <ReactPlayer height='60px' width='200px' controls url='../../audio/shi.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                       | Translation           |
+|----------------------------|-----------------------|
+| <Audio src="shi"/> **sh**i | <Translate id="ten"/> |
 
 ## t
 
-| Palabra | Traducción | Audio                                                                                                                |
-|---------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **t**ap | cuatro     | <ReactPlayer height='60px' width='200px' controls url='../../audio/tap.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                       | Translation            |
+|----------------------------|------------------------|
+| <Audio src="tap"/> **t**ap | <Translate id="four"/> |
 
 ## u
 
-| Palabra | Traducción | Audio                                                                                                              |
-|---------|------------|--------------------------------------------------------------------------------------------------------------------|
-| **u**   |            | <ReactPlayer height='60px' width='200px' controls url='../../audio/u.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                   | Translation |
+|------------------------|-------------|
+| <Audio src="u"/> **u** |             |
 
 ## w
 
-| Palabra   | Traducción | Audio                                                                                                                  |
-|-----------|------------|------------------------------------------------------------------------------------------------------------------------|
-| **w**bill | sol        | <ReactPlayer height='60px' width='200px' controls url='../../audio/wbill.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                           | Translation           |
+|--------------------------------|-----------------------|
+| <Audio src="wbill"/> **w**bill | <Translate id="sun"/> |
 
 ## x
 
-| Palabra | Traducción | Audio                                                                                                                |
-|---------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **x**un | ocho       | <ReactPlayer height='60px' width='200px' controls url='../../audio/xun.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                       | Translation             |
+|----------------------------|-------------------------|
+| <Audio src="xun"/> **x**un | <Translate id="eight"/> |
 
 ## xh
 
-| Palabra  | Traducción | Audio                                                                                                                 |
-|----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **xh**id | gato       | <ReactPlayer height='60px' width='200px' controls url='../../audio/xhid.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation           |
+|------------------------------|-----------------------|
+| <Audio src="xhid"/> **xh**id | <Translate id="cat"/> |
 
 ## y
 
-| Palabra  | Traducción | Audio                                                                                                                 |
-|----------|------------|-----------------------------------------------------------------------------------------------------------------------|
-| **y**etj | caña       | <ReactPlayer height='60px' width='200px' controls url='../../audio/yetj.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                         | Translation                 |
+|------------------------------|-----------------------------|
+| <Audio src="yetj"/> **y**etj | <Translate id="sugarcane"/> |
 
 ## z
 
-| Palabra | Traducción | Audio                                                                                                               |
-|---------|------------|---------------------------------------------------------------------------------------------------------------------|
-| **z**a  | frijol     | <ReactPlayer height='60px' width='200px' controls url='../../audio/za.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                     | Translation            |
+|--------------------------|------------------------|
+| <Audio src="za"/> **z**a | <Translate id="bean"/> |
 
 ## za'
 
-| Palabra  | Traducción | Audio                                                                                                                |
-|----------|------------|----------------------------------------------------------------------------------------------------------------------|
-| **za'**a | maiz 🌽    | <ReactPlayer height='60px' width='200px' controls url='../../audio/zaa.mov' config={{ file: {forceAudio: true} }} /> |
+| Word                        | Translation               |
+|-----------------------------|---------------------------|
+| <Audio src="zaa"/> **za'**a | <Translate id="corn"/> 🌽 |
