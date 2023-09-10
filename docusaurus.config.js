@@ -72,7 +72,7 @@ const config = {
         title: 'Zapoteco',
         logo: {
           alt: 'Zapoteco Logo',
-          src: 'img/Zapoteco.png',
+          src: 'img/zapoteco.png',
         },
         items: [
           {
