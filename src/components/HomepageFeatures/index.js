@@ -6,63 +6,41 @@ import Translate from "@docusaurus/Translate";
 
 const FeatureList = [
   {
-    title: 'Alphabet',
+    title: <Translate id="Alphabet">Alphabet</Translate>,
     link: '/docs/basics/alphabet',
     Svg: require('@site/static/img/alphabet.svg').default,
-    description: (
-      <>
-        Learn about the build blocks of the dialect.
-      </>
-    ),
+    description: <Translate id="alphabet.description">Learn about the build blocks of the dialect.</Translate>
   },
   {
-    title: 'Numbers',
+    title: <Translate id="Numbers">Numbers</Translate>,
     link: '/docs/basics/numbers',
     Svg: require('@site/static/img/numbers.svg').default,
-    description: (
-        <>
-            Learn to pronounce the numbers.
-        </>
-    ),
+    description: <Translate id="numbers.description">Learn to pronounce the numbers.</Translate>
   },
-    {
-        title: 'Flashcards',
-        link: '/docs/basics/flashcards',
-        Svg: require('@site/static/img/cards.svg').default,
-        description: (
-            <>
-                Test your knowledge
-            </>
-        ),
-    },
+  {
+    title: <Translate id="Flashcards">Flashcards</Translate>,
+    link: '/docs/basics/flashcards',
+    Svg: require('@site/static/img/cards.svg').default,
+    description: <Translate id="flashcards.description">Test your knowledge</Translate>
+  },
 ];
 
 function Feature({Svg, title, description, link}) {
-    let desc;
-    if (link) {
-        desc = <Link
-                className="button button--secondary button--block"
-                to={link}>
-                <Translate id='learn.more'>
-                    Learn more...
-                </Translate>
-            </Link>;
-    } else {
-        desc = <small>{description}</small>
-    }
   return (
-          <div className={clsx('col col--4', 'card-demo', 'margin-top--md')}>
+          <div className={clsx('col col--4', 'card-demo', 'margin-vert--sm')}>
+              <Link to={link}>
               <div className="card item shadow--tl">
                   <div className="card__image text--center">
                           <Svg className={styles.featureSvg} role="img" />
                   </div>
                   <div className="card__body text--center padding-horiz--md">
-                      <h4><Translate id={title}/></h4>
+                      <h2>{title}</h2>
                   </div>
-                      <div className="card__footer">
-                          {desc}
+                      <div className="card__footer text--center ">
+                          <small>{description}</small>
                       </div>
               </div>
+              </Link>
           </div>
   );
 }
