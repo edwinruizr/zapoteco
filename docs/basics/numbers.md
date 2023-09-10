@@ -11,6 +11,26 @@ Cajonos Zapoteco variation
 
 :::
 
+The numbers in Zapoteco are difficult to learn. Digits from 1 to 15 are specific words that are used in subsequent 
+numbers to an extent: 
+- tu [1]
+- chup [2]
+- ...
+- shinhu[15]. 
+
+Numbers from 16 to 19 are quite irregular, namely: 
+- shiin tú [16] (combination shiin and tú, 13+1≠16)
+- shiin chup [17] (combination shiin and chup, 13+2≠17)
+- shin shun [18] (contraction of shin and shun, 15+3=18)
+- tu galj [19] (combination of tu[1] and galj[20], |1-20|=19)
+
+Hundreds are formed by saying the multiplier digit before the word for hundred (gayua): 
+- tu gayua [100]
+- chup gayua [200]
+- shun gayua [300]
+
+Here are the numbers in Zapoteco:
+
 | #   | Zapoteco            |
 |-----|---------------------|
 | 1   | tu                  |
