@@ -1,9 +1,10 @@
 ---
 sidebar_position: 2
-description: View the numbers
+title: Numbers
+description: Learn the numbers
+keywords: [learn, zapoteco, numbers]
 ---
 
-# Numbers 
 :::info
 
 Cajonos Zapoteco variation

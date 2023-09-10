@@ -40,6 +40,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        blog: false,
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -54,6 +55,12 @@ const config = {
           trackingID: 'G-ERKC49M9VM',
           anonymizeIP: true,
         },
+        sitemap: {
+          changefreq: 'weekly',
+            priority: 0.5,
+            ignorePatterns: [],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -63,6 +70,7 @@ const config = {
     ({
       // Replace with your project's social card
       // image: 'img/social-card.jpg',
+      metadata: [{name: 'keywords', content: 'learn, zapoteco, san francisco cajonos, ljxill, oaxaca'}],
       navbar: {
         title: 'Zapoteco',
         logo: {

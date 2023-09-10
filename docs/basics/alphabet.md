@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
 description: View the alphabet
+title: Alphabet
+keywords: [learn, zapoteco, alphabet, audio]
 ---
 import Audio  from '@site/src/components/Audio/index.js';
 import Translate from "@docusaurus/Translate";
-
-# Alphabet
 
 :::note
 

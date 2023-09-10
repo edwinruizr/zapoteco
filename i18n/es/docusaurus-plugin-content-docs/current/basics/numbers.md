@@ -1,9 +1,10 @@
 ---
 sidebar_position: 2
 description: Ve los números
+title: Números
+keywords: [aprende, numeros, zapoteco]
 ---
 
-# Números 
 :::info
 
 Zapoteco variante Cajono
