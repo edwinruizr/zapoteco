@@ -270,15 +270,6 @@
     "message": "Etiquetas",
     "description": "The title of the tag list page"
   },
-  "tagline.translate": {
-    "message": "Variante San Francisco Cajonos"
-  },
-  "learn.the.alphabet": {
-    "message": "Aprende el alfabeto"
-  },
-  "learn.more": {
-    "message": "Aprende más"
-  },
   "Alphabet": {
     "message": "Alfabeto"
   },
@@ -326,9 +317,6 @@
   },
   "potato": {
     "message": "papa o camote"
-  },
-  "sweet.potato": {
-  "message": "camote"
   },
   "year": {
     "message": "año"
@@ -404,6 +392,21 @@
   },
   "corn": {
     "message": "maiz"
+  },
+  "main.page.intro": {
+    "message": "Zapoteco, una antigua lengua mesoamericana, hablada por las comunidades indígenas zapotecas principalmente en Oaxaca, lleva dentro de su fonética y sintaxis los ecos de milenios de existencia humana. San Francisco Cajonos, Ljxill en zapoteco, es uno de los pueblos que forma la comunidad zapoteco, donde se habla Zapoteco con su propio variante. Es un cultura vibrante y resiliente famosa por su gastronomía, mezcal, baile y música, entre otras cosas. Aprender esta variante dialectal puede desempeñar un papel fundamental en la promoción de la preservación y revitalización cultural.",
+    "description": "intro on main page"
+  },
+  "alphabet.description": {
+    "message": "Conozca los componentes básicos del dialecto."
+  },
+  "numbers.description": {
+    "message": "Aprende a pronunciar los números."
+  },
+  "flashcards.description": {
+    "message": "Prueba tus conocimientos"
+  },
+  "hero.tagline": {
+    "message": "Variante San Francisco Cajonos"
   }
 }
-
