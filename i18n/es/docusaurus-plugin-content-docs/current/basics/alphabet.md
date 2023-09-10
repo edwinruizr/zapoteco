@@ -13,6 +13,21 @@ Cuando estés en el móvil, el audio **sólo se reproducirá** cuando estés en 
 
 :::
 
+Al igual que otros idiomas, el Zapoteco tiene su alfabeto con un total de 32 sonidos: 5 vocales y el resto son 
+consonantes. Los 5 vocales son similares al inglés/español:
+
+|                            |                            |                            |                            |                            |
+|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+| <Link to="#a">**a**</Link> | <Link to="#e">**e**</Link> | <Link to="#i">**i**</Link> | <Link to="#o">**o**</Link> | <Link to="#u">**u**</Link> |
+
+Muchas de las consonantes son como consonantes en inglés/español, pero algunas tienen pronunciaciones especiales en 
+Zapoteco, se enumeran a continuación:
+- <Link to="#ll">ll</Link>
+- <Link to="#x">x</Link>
+- <Link to="#xh">xh</Link>
+
+Ve palabras que comienzan con letras del alfabeto:
+
 ## a
 
 | <Translate id="word">Word</Translate> | <Translate id="translation">Translation</Translate> |

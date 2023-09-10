@@ -1,8 +1,8 @@
 {
   "label": "Lo esencial",
   "position": 1,
+  "title": "Lo esencial",
   "link": {
     "type": "generated-index",
-    "description": "Aprende el alfabeto"
   }
 }

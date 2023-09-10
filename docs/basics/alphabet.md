@@ -6,12 +6,27 @@ keywords: [learn, zapoteco, alphabet, audio]
 ---
 import Audio  from '@site/src/components/Audio/index.js';
 import Translate from "@docusaurus/Translate";
+import Link from '@docusaurus/Link';
 
 :::note
 
 When on mobile, audio will **only play** when on ring mode. [Reference](https://support.apple.com/en-mide/HT203017).
 
 :::
+
+Similar to other languages Zapoteco has it's alphabet totaling to 32 sounds: 5 vowels the remaining are consonants. The 
+5 vowels are similar to English/Spanish:
+
+|                            |                            |                            |                            |                            |
+|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+| <Link to="#a">**a**</Link> | <Link to="#e">**e**</Link> | <Link to="#i">**i**</Link> | <Link to="#o">**o**</Link> | <Link to="#u">**u**</Link> |
+
+Many of the consonants are like consonants in English/Spanish but some have special pronunciations in Zapoteco, they are listed below:
+- <Link to="#ll">ll</Link>
+- <Link to="#x">x</Link>
+- <Link to="#xh">xh</Link>
+
+View words starting with letters of the alphabet: 
 
 ## a
 

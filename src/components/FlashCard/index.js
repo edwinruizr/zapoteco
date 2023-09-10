@@ -42,7 +42,7 @@ const CardsList = [
     {
         title: 'Axh',
         Svg: require('@site/static/img/garlic.svg').default,
-          translationId: <Translate id="Garlic"/>,
+        translationId: <Translate id="Garlic"/>,
         sound: axh,
     },
     {
