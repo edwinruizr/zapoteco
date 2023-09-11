@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './styles.module.css';
 import { AiFillPlayCircle } from 'react-icons/ai';
+import { MdStopCircle } from 'react-icons/md';
 import useSound from 'use-sound';
 import axh from '@site/static/audio/axh.mp3';
 import bzin from '@site/static/audio/bzin.mp3';
@@ -525,9 +526,23 @@ export default function Audio({src}) {
             break;
     }
 
-    const [play, {stop, isPlaying}] = useSound(audioSrc, {interrupt: false});
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [play, {stop}] = useSound(audioSrc, {interrupt: true,
+        onend: () => {
+            setIsPlaying(false)
+        },
+    });
     const toggle = () => {
-        isPlaying ? stop(): play()
+        if (isPlaying) {
+            stop();
+            setIsPlaying(false)
+        } else {
+            play()
+            setIsPlaying(true)
+        }
     }
-  return <AiFillPlayCircle className={styles.audio} onClick={toggle}/>;
+
+  return isPlaying ?
+      <MdStopCircle className={styles.audio} onClick={toggle}/>:
+      <AiFillPlayCircle className={styles.audio} onClick={toggle}/>;
 }
