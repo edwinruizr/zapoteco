@@ -66,7 +66,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      // image: 'img/social-card.jpg',
+      image: 'img/social-card.png',
       metadata: [{name: 'keywords', content: 'learn, zapoteco, san francisco cajonos, ljxill, oaxaca'}],
       navbar: {
         title: 'Zapoteco',
