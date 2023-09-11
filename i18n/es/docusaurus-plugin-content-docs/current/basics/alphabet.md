@@ -6,6 +6,7 @@ keywords: [aprende, alfabeto, zapoteco, audio]
 ---
 import Audio  from '@site/src/components/Audio/index.js';
 import Translate from "@docusaurus/Translate";
+import Link from '@docusaurus/Link';
 
 :::note
 
@@ -42,9 +43,9 @@ Ve palabras que comienzan con letras del alfabeto:
 
 ## ch
 
-| Word                         | Translation           |
-|------------------------------|-----------------------|
-| <Audio src="chup"/> **ch**up | <Translate id="two"/> |
+| Word                      | Translation           |
+|---------------------------|-----------------------|
+| <Audio src="2"/> **ch**up | <Translate id="two"/> |
 
 ## chh
 
@@ -168,15 +169,15 @@ Ve palabras que comienzan con letras del alfabeto:
 
 ## sh
 
-| Word                       | Translation           |
-|----------------------------|-----------------------|
-| <Audio src="shi"/> **sh**i | <Translate id="ten"/> |
+| Word                      | Translation           |
+|---------------------------|-----------------------|
+| <Audio src="10"/> **sh**i | <Translate id="ten"/> |
 
 ## t
 
-| Word                       | Translation            |
-|----------------------------|------------------------|
-| <Audio src="tap"/> **t**ap | <Translate id="four"/> |
+| Word                     | Translation            |
+|--------------------------|------------------------|
+| <Audio src="4"/> **t**ap | <Translate id="four"/> |
 
 ## u
 
@@ -192,9 +193,9 @@ Ve palabras que comienzan con letras del alfabeto:
 
 ## x
 
-| Word                       | Translation             |
-|----------------------------|-------------------------|
-| <Audio src="xun"/> **x**un | <Translate id="eight"/> |
+| Word                     | Translation             |
+|--------------------------|-------------------------|
+| <Audio src="8"/> **x**un | <Translate id="eight"/> |
 
 ## xh
 
