@@ -13,8 +13,8 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">
-          <Translate id="hero.tagline" values={{tagline: siteConfig.tagline}}>
-              {'{tagline}'}
+          <Translate id="hero.tagline">
+              San Francisco Cajonos variation
           </Translate>
         </p>
       </div>

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Zapoteco',
-  tagline: 'San Francisco Cajonos variation',
+  tagline: 'Learn Zapoteco San Francisco Cajonos (Ljxill) variation',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -54,7 +54,7 @@ const config = {
         },
         sitemap: {
           changefreq: 'weekly',
-            priority: 0.5,
+            priority: 0.6,
             ignorePatterns: [],
           filename: 'sitemap.xml',
         },
