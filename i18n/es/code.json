@@ -408,5 +408,29 @@
   },
   "hero.tagline": {
     "message": "Variante San Francisco Cajonos"
+  },
+  "oregano": {
+    "message": "Orégano"
+  },
+  "oregano.description": {
+    "message": "Se prepara en té y se utiliza para los dolores menstruales."
+  },
+  "rosemary": {
+    "message": "Romero"
+  },
+  "rosemary.description": {
+    "message": "Se utiliza para la presión alta. Se prepara una taza de agua, una vez que esté hirviendo el agua se le pone dos puntas de romero, se apage y se sirve."
+  },
+  "chamomile": {
+    "message": "Manzanilla"
+  },
+  "chamomile.description": {
+    "message": "Para el dolor de estómago y ojos irritados."
+  },
+  "boganvilla.flower": {
+    "message": "Boganvilla flower"
+  },
+  "boganvilla.flower.description": {
+    "message": "Se utiliza para la tos, tomado en té con eucalipto y ajo."
   }
 }
