@@ -5,6 +5,8 @@ import { MdStopCircle } from 'react-icons/md';
 import useSound from 'use-sound';
 import Translate from "@docusaurus/Translate";
 import wbill from '@site/static/audio/wbill.mp3';
+import Tag from '@theme/Tag';
+import TagsListInline from '@theme/TagsListInline';
 
 const Herbs = [{
     zapoteco: "Kuan Orhegano",
@@ -12,7 +14,7 @@ const Herbs = [{
     description: <Translate id="oregano.description">It is prepared in tea and is used for menstruation cramps.</Translate>,
     audio: wbill, //TODO: correct audio
     img: "oregano.jpeg", //TODO: update with bigger image
-    tags: ["tea", "menstruation", "cramps"]
+    tags: [{label:"tea"},{label:"menstruation"}, {label:"cramps"}]
 },
     {
         zapoteco: "Romher",
@@ -20,7 +22,7 @@ const Herbs = [{
         description: <Translate id="rosemary.description">It is used for high blood pressure. Prepare a cup of water, once the water is boiling, add two tips of rosemary, turn it off and serve.</Translate>,
         audio: wbill, //TODO: correct audio
         img: "rosemary.jpeg",
-        tags: ["tea", "high blood pressure"]
+        tags: [{label:"tea"}, {label:"high blood pressure"}]
     },
     {
         zapoteco: "Manzaniy",
@@ -28,7 +30,7 @@ const Herbs = [{
         description: <Translate id="chamomile.description">For stomach pain and irritated eyes.</Translate>,
         audio: wbill, //TODO: correct audio
         img: "rosemary.jpeg", //TODO: update with correct image
-        tags: ["tea", "stomachache", "eyes"]
+        tags: [{label:"tea"}, {label: "stomachache"}, {label: "eyes"}]
     },
     {
         zapoteco: "Yej Bumbil",
@@ -36,7 +38,7 @@ const Herbs = [{
         description: <Translate id="boganvilla.flower.description">It is used for coughs, taken in tea with eucalyptus and garlic.</Translate>,
         audio: wbill, //TODO: correct audio
         img: "rosemary.jpeg", //TODO: update with correct image
-        tags: ["tea", "cough"]
+        tags: [{label:"tea"}, {label: "cough"}]
     }
 ];
 
@@ -77,9 +79,7 @@ function HerbalCard({zapoteco, translation, description, audio, img, tags}) {
                     </small>
                 </div>
                 <div className="card__footer">
-                    {tags.map((val) =>
-                        <span className="badge badge--secondary margin--xs">{val}</span>
-                    )}
+                    <TagsListInline tags={tags} />
                 </div>
             </div>
         </div>
