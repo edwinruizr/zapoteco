@@ -3,6 +3,9 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
 import Translate from "@docusaurus/Translate";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Head from "@docusaurus/Head";
 
 const FeatureList = [
   {
@@ -46,7 +49,39 @@ function Feature({Svg, title, description, link}) {
 }
 
 export default function HomepageFeatures() {
+    const {siteConfig} = useDocusaurusContext();
+    let schema = JSON.stringify({
+        "@context":"https://schema.org",
+        "@type":"ItemList",
+        "itemListElement":[
+            {
+                "@type":"ListItem",
+                "position":1,
+                "description": "Discover the Joy of Learning the Cajonos Zapoteco Alphabet with Audio! The interactive page combines the alphabet/words with the power of audio to create a truly immersive learning experience.",
+                "name": "Zapoteco alphabet",
+                "url": siteConfig.url +useBaseUrl("/docs/basics/alphabet")
+            },
+            {
+                "@type":"ListItem",
+                "position":2,
+                "description": "Learn the Cajonos Zapoteco numbers with Audio! Numbers have audio to learn how to pronounce the number in Zapoteco.",
+                "name": "Zapoteco numbers",
+                "url": siteConfig.url + useBaseUrl("/docs/basics/numbers")
+            },
+            {
+                "@type":"ListItem",
+                "position":3,
+                "description": "Use flashcards to practice or test your knowledge of Zapoteco",
+                "name": "Zapoteco flashcards",
+                "url": siteConfig.url + useBaseUrl("/docs/basics/flashcards")
+            }
+        ]
+    });
   return (
+      <>
+          <Head>
+              <script type="application/ld+json">{schema}</script>
+          </Head>
     <section className={styles.features}>
       <div className="container">
         <div className="row">
@@ -56,5 +91,6 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
+      </>
   );
 }
