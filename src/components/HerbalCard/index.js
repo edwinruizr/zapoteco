@@ -5,7 +5,6 @@ import { MdStopCircle } from 'react-icons/md';
 import useSound from 'use-sound';
 import Translate from "@docusaurus/Translate";
 import wbill from '@site/static/audio/wbill.mp3';
-import Tag from '@theme/Tag';
 import TagsListInline from '@theme/TagsListInline';
 
 const Herbs = [{
