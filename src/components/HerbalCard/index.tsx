@@ -8,6 +8,7 @@ import TagsListInline from '@theme/TagsListInline';
 import Tag from '@theme/Tag';
 import Link from "@docusaurus/Link";
 import clsx from "clsx";
+import Chip from '@mui/material/Chip';
 
 interface HerbTag {
     label: string;
@@ -154,9 +155,9 @@ export default function HerbalCards() {
                             Filters:
                         </Translate>
                     </b>
-                    {filters?.map((filter:string) => {
+                    {filters?.map((val:string) => {
                         return <li className={styles.filtertag}>
-                            <Tag permalink={""} label={filter}/>
+                            <Chip className={'margin-left--xs'} variant="outlined" label={val} onDelete={()=> setFilters(filters.filter((v) => v !== val))} />
                         </li>
                     })}
                 </ul>
