@@ -9,7 +9,20 @@ import Tag from '@theme/Tag';
 import Link from "@docusaurus/Link";
 import clsx from "clsx";
 
-const Herbs = [{
+interface HerbTag {
+    label: string;
+}
+
+interface HerbalCardProps {
+    zapoteco: string;
+    translation: any;
+    description: any;
+    audio?: any;
+    img: string;
+    tags: HerbTag[];
+}
+
+const Herbs: HerbalCardProps[] = [{
     zapoteco: "Kuan Orhegano",
     translation: <Translate id="oregano">Oregano</Translate>,
     description: <Translate id="oregano.description">It is prepared in tea and is used for menstruation cramps.</Translate>,
@@ -43,13 +56,25 @@ const Herbs = [{
     }
 ];
 
-function HerbalCard({zapoteco, translation, description, audio, img, tags}) {
+
+const HerbalCard: React.FC<HerbalCardProps> = props => {
+    const {
+        zapoteco,
+        translation,
+        description,
+        audio,
+        img,
+        tags,
+        ...rest
+    } = props
+
     const [isPlaying, setIsPlaying] = useState(false);
-    const [play, {stop}] = useSound(audio, {interrupt: true,
-        onend: () => {
-            setIsPlaying(false)
+    const [play, {stop}] = useSound(audio,
+        {
+            interrupt: true,
+            onend: () => {setIsPlaying(false)},
         },
-    });
+    );
     const toggle = () => {
         if (isPlaying) {
             stop();
@@ -88,9 +113,7 @@ function HerbalCard({zapoteco, translation, description, audio, img, tags}) {
 }
 
 export default function HerbalCards() {
-    const [filters, setFilters] = useState([]);
-
-
+    const [filters, setFilters] = useState<string[]>();
     const [h, setHerbElements] = useState(Herbs.reduce((arr, item, idx) => (arr[idx / 2 |0] ??= []).push(item) && arr, []));
     // const h = Herbs.reduce((arr, item, idx) => (arr[idx / 2 |0] ??= []).push(item) && arr, []);
 
@@ -103,7 +126,7 @@ export default function HerbalCards() {
 
     useEffect(()=>{
         let filtered
-        if (filters?.length < 1) {
+        if (filters === undefined || filters?.length < 1) {
             filtered = Herbs
         } else {
             filtered = Herbs.filter(p => filters.every((val) => {
@@ -131,8 +154,10 @@ export default function HerbalCards() {
                             Filters:
                         </Translate>
                     </b>
-                    {filters?.map((filter) => {
-                        return <li className={styles.filtertag}><Tag className={clsx(styles.filtertag)} label={filter}/></li>
+                    {filters?.map((filter:string) => {
+                        return <li className={styles.filtertag}>
+                            <Tag permalink={""} label={filter}/>
+                        </li>
                     })}
                 </ul>
                 {h?.map((data) => {
