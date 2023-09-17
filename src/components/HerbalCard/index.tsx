@@ -127,11 +127,8 @@ export default function HerbalCards() {
     const [h, setHerbElements] = useState(Herbs.reduce((arr, item, idx) => (arr[idx / 2 |0] ??= []).push(item) && arr, []));
 
     useEffect(()=>{
-        console.log("changed")
-        console.log(filters)
         let filtered
         if (filters === undefined || filters?.length < 1) {
-            console.log("empty")
             filtered = Herbs
             window.history.replaceState(null, null, "?");
         } else {
