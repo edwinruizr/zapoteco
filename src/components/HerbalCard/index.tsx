@@ -4,10 +4,9 @@ import { AiFillPlayCircle } from 'react-icons/ai';
 import { MdStopCircle } from 'react-icons/md';
 import useSound from 'use-sound';
 import Translate from "@docusaurus/Translate";
-import TagsListInline from '@theme/TagsListInline';
-import Tag from '@theme/Tag';
 import Link from "@docusaurus/Link";
 import clsx from "clsx";
+import Stack from '@mui/material/Stack';
 import Chip from '@mui/material/Chip';
 
 interface HerbTag {
@@ -21,6 +20,7 @@ interface HerbalCardProps {
     audio?: any;
     img: string;
     tags: HerbTag[];
+    onTagClick?: (tag: string) => void;
 }
 
 const Herbs: HerbalCardProps[] = [{
@@ -57,7 +57,6 @@ const Herbs: HerbalCardProps[] = [{
     }
 ];
 
-
 const HerbalCard: React.FC<HerbalCardProps> = props => {
     const {
         zapoteco,
@@ -66,6 +65,7 @@ const HerbalCard: React.FC<HerbalCardProps> = props => {
         audio,
         img,
         tags,
+        onTagClick,
         ...rest
     } = props
 
@@ -106,7 +106,15 @@ const HerbalCard: React.FC<HerbalCardProps> = props => {
                     </small>
                 </div>
                 <div className="card__footer">
-                    <TagsListInline tags={tags} />
+                    <Stack direction="row" spacing={1}>
+                        {tags?.map((val) =>
+                            <Chip
+                                label={val.label}
+                                variant="outlined"
+                                onClick={() => onTagClick(val.label)}
+                            />
+                        )}
+                    </Stack>
                 </div>
             </div>
         </div>
@@ -114,22 +122,27 @@ const HerbalCard: React.FC<HerbalCardProps> = props => {
 }
 
 export default function HerbalCards() {
-    const [filters, setFilters] = useState<string[]>();
+    const queryParameters = new URLSearchParams(window.location.search)
+    const [filters, setFilters] = useState<string[]>(queryParameters.getAll("filter"));
     const [h, setHerbElements] = useState(Herbs.reduce((arr, item, idx) => (arr[idx / 2 |0] ??= []).push(item) && arr, []));
-    // const h = Herbs.reduce((arr, item, idx) => (arr[idx / 2 |0] ??= []).push(item) && arr, []);
 
     useEffect(()=>{
-        try {
-            let f = new URLSearchParams(window.location.search).getAll("filter")
-            setFilters(f)
-        } catch(e) {}
-    },[])
-
-    useEffect(()=>{
+        console.log("changed")
+        console.log(filters)
         let filtered
         if (filters === undefined || filters?.length < 1) {
+            console.log("empty")
             filtered = Herbs
+            window.history.replaceState(null, null, "?");
         } else {
+            let text = "?"
+            filters.forEach((val, idx)=> { if ( idx != 0 ){
+                text = text + "&filter=" + val
+            } else {
+                text = text + "filter=" + val
+            } })
+
+            window.history.replaceState(null, null, text);
             filtered = Herbs.filter(p => filters.every((val) => {
                 let pass = false
                 p.tags.forEach((v) => pass = pass || String(v.label).toLowerCase() == String(val).toLowerCase())
@@ -138,6 +151,12 @@ export default function HerbalCards() {
         }
         setHerbElements(filtered.reduce((arr, item, idx) => (arr[idx / 2 |0] ??= []).push(item) && arr, []));
     }, [filters])
+
+    let onTagClick = (tag: string) => {
+        let f = [...filters]
+        f.push(tag)
+        setFilters(f)
+    }
     return (
             <div className="container">
                 <Translate id={"herbs.blurb"} values={{link: <Link to="https://maps.app.goo.gl/X3x1AeKWidGkSEof8">San Francisco Cajonos</Link>}}>
@@ -149,7 +168,7 @@ export default function HerbalCards() {
                     'us of the enduring wisdom of our ancestors and the power of nature\'s remedies. The following were gathered from the\n' +
                     'musuem in {link}:'}
                 </Translate>
-                <ul className={clsx('padding--sm', 'margin-left--sm')}>
+                <ul className={clsx('padding--sm', 'margin-left--sm', 'margin-top--md')}>
                     <b>
                         <Translate id="filter">
                             Filters:
@@ -157,14 +176,18 @@ export default function HerbalCards() {
                     </b>
                     {filters?.map((val:string) => {
                         return <li className={styles.filtertag}>
-                            <Chip className={'margin-left--xs'} variant="outlined" label={val} onDelete={()=> setFilters(filters.filter((v) => v !== val))} />
+                            <Chip className={'margin-left--xs'} variant="outlined" label={val} onDelete={()=> {
+                                let f = filters
+                                setFilters(f.filter((v) => v !== val))
+                            }
+                            } />
                         </li>
                     })}
                 </ul>
                 {h?.map((data) => {
                     return <div className="row">
                         {data?.map((props, idx) => (
-                            <HerbalCard key={idx} {...props} />
+                            <HerbalCard key={idx} onTagClick={onTagClick} {...props} />
                         ))}
                     </div>
                 })}
