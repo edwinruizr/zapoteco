@@ -5,7 +5,6 @@ import { MdStopCircle } from "react-icons/md";
 import useSound from "use-sound";
 import Translate from "@docusaurus/Translate";
 import Link from "@docusaurus/Link";
-import clsx from "clsx";
 import Stack from "@mui/material/Stack";
 import Chip from "@mui/material/Chip";
 import useIsBrowser from "@docusaurus/useIsBrowser";
@@ -129,7 +128,8 @@ const HerbalCard: React.FC<HerbalCardProps> = (props) => {
             {tags?.map((val) => (
               <Chip
                 label={val}
-                variant="outlined"
+                color="primary"
+                variant={"outlined"}
                 onClick={() => onTagClick(val)}
               />
             ))}
