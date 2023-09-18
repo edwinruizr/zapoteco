@@ -408,5 +408,35 @@
   },
   "hero.tagline": {
     "message": "Variante San Francisco Cajonos"
+  },
+  "oregano": {
+    "message": "Orégano"
+  },
+  "oregano.description": {
+    "message": "Se prepara en té y se utiliza para los dolores menstruales."
+  },
+  "rosemary": {
+    "message": "Romero"
+  },
+  "rosemary.description": {
+    "message": "Se utiliza para la presión alta. Se prepara una taza de agua, una vez que esté hirviendo el agua se le pone dos puntas de romero, se apage y se sirve."
+  },
+  "chamomile": {
+    "message": "Manzanilla"
+  },
+  "chamomile.description": {
+    "message": "Para el dolor de estómago y ojos irritados."
+  },
+  "bougainvillea.flower": {
+    "message": "Flor de buganvilla"
+  },
+  "bougainvillea.flower.description": {
+    "message": "Se utiliza para la tos, tomado en té con eucalipto y ajo."
+  },
+  "herbs.blurb": {
+    "message": "Hace mucho tiempo, cuando la conexión de la humanidad con la naturaleza era profunda, las tribus comenzaron a descubrir las propiedades curativas de las hierbas. Guiados por la intuición y la observación, nuestros antepasados notaron cómo ciertas plantas podían aliviar dolencias y calmar malestar. A través de generaciones de prueba y error, se transmitió la sabiduría y floreció el arte de la medicina herbaria dentro de estas comunidades muy unidas. Las hierbas se convirtieron en una parte vital de la vida tribal, simbolizando no sólo la curación física pero también el profundo vínculo entre las personas y el mundo natural. Esta antigua tradición continúa prosperando, recordando de la sabiduría perdurable de nuestros antepasados y del poder de los remedios de la naturaleza. Lo siguiente fue recopilado de el museo en {link}:"
+  },
+  "filter": {
+    "message": "Filtros:"
   }
 }
