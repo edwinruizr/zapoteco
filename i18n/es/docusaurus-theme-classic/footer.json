@@ -38,5 +38,9 @@
   "link.item.label.Healing Herbs": {
     "message": "Healing Herbs",
     "description": "The label of footer link with label=Healing Herbs linking to /docs/herbs"
+  },
+  "link.item.label.Animals": {
+    "message": "Animales",
+    "description": "The label of footer link with label=Animals linking to /docs/basics/animals"
   }
 }
