@@ -1,20 +1,20 @@
 import React, { ReactElement, useState } from "react";
 import useSound from "use-sound";
-import styles from "@site/src/components/herbalcard/styles.module.css";
-import PlayCircleIcon from "@mui/icons-material/PlayCircle";
-import StopCircleIcon from "@mui/icons-material/StopCircle";
+import styles from "@site/src/components/audiocard/styles.module.css";
 import Stack from "@mui/material/Stack";
 import { FaPlay, FaStop } from "react-icons/fa";
+import clsx from "clsx";
 export interface AudioCardProps {
   title: string;
   body: any;
   footer?: any;
   audio?: string;
   img?: string;
+  Svg?: any;
 }
 
 export const AudioCard: React.FC<AudioCardProps> = (props): ReactElement => {
-  const { title, body, footer, audio, img, ...rest } = props;
+  const { title, body, footer, audio, img, Svg, ...rest } = props;
 
   const [isPlaying, setIsPlaying] = useState(false);
   const [play, { stop }] = useSound(audio, {
@@ -34,11 +34,21 @@ export const AudioCard: React.FC<AudioCardProps> = (props): ReactElement => {
   };
 
   return (
-    <div className="card-demo margin--md col">
+    <div className={clsx("card-demo", "margin--md", "col", styles.customcard)}>
       <div className="card shadow--tl">
-        <div className="card__image">
-          {img && <img src={img} alt={img} title="Logo Title Text 1" />}
-        </div>
+        {img && (
+          <div className={clsx("card__image", styles.featureSvg)}>
+            <img src={img} alt={title} title={title} />
+          </div>
+        )}
+        {Svg && (
+          <div className={clsx("card__image", styles.featureSvg)}>
+            <Svg
+              className={clsx("card__image", styles.featureSvg)}
+              role="img"
+            />
+          </div>
+        )}
         <div className="card__body">
           <Stack direction="row" spacing={1}>
             <h2>{title}</h2>
