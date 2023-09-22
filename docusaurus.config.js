@@ -112,6 +112,10 @@ const config = {
                 to: "/docs/basics/numbers",
               },
               {
+                label: "Animals",
+                to: "/docs/basics/animals",
+              },
+              {
                 label: "Flashcards",
                 to: "/docs/basics/flashcards",
               },
