@@ -1,6 +1,15 @@
-.featureSvg {
+.imageDiv {
   text-align: center;
   height: 300px;
+  max-width: 300px;
+  display:block;
+  margin: auto;
+}
+
+.featureSvg {
+  height: 300px;
+  max-width: 250px;
+  min-width: 200px;
 }
 
 .audio:hover{

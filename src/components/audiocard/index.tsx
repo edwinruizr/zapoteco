@@ -42,7 +42,7 @@ export const AudioCard: React.FC<AudioCardProps> = (props): ReactElement => {
           </div>
         )}
         {Svg && (
-          <div className={clsx("card__image", styles.featureSvg)}>
+          <div className={clsx("card__image", styles.imageDiv)}>
             <Svg
               className={clsx("card__image", styles.featureSvg)}
               role="img"

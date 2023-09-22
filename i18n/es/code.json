@@ -438,5 +438,80 @@
   },
   "filter": {
     "message": "Filtros:"
+  },
+  "armadillo": {
+    "message": "armadillo"
+  },
+  "macaw": {
+    "message": "guacamaya"
+  },
+  "deer": {
+    "message": "venado"
+  },
+  "eagle": {
+    "message": "aguila"
+  },
+  "grasshopper": {
+    "message": "chapulín"
+  },
+  "dove": {
+    "message": "tortolita"
+  },
+  "skunk": {
+    "message": "zorrillo"
+  },
+  "squirrel": {
+    "message": "ardilla"
+  },
+  "quail": {
+    "message": "codorniz"
+  },
+  "chachalaca": {
+    "message": "chachalaca"
+  },
+  "hummingbird": {
+    "message": "colibri"
+  },
+  "fox": {
+    "message": "zorro"
+  },
+  "fish": {
+    "message": "pescado"
+  },
+  "crab": {
+    "message": "cangrejo"
+  },
+  "toad": {
+    "message": "sapo"
+  },
+  "turkey": {
+    "message": "guajolote"
+  },
+  "bird": {
+    "message": "pajaro"
+  },
+  "snake": {
+    "message": "vibora"
+  },
+  "duck": {
+    "message": "pato"
+  },
+  "roadrunner": {
+    "message": "correcaminos"
+  },
+  "lizard": {
+    "message": "lagartija"
+  },
+  "bull": {
+    "message": "toro"
+  },
+  "dog": {
+    "message": "perro"
+  },
+  "hare": {
+    "message": "liebre"
+  },
+  "cougar": {
+    "message": "puma"
   }
 }
