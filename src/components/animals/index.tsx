@@ -108,7 +108,7 @@ const animals: Animal[] = [
   {
     zapoteco: "bechhjxig",
     translation: <Translate id="chachalaca" />,
-    // img: require("@site/static/img/chachalaca.svg").default,
+    img: require("@site/static/img/chachalaca.svg").default,
     // audio: require("@site/static/audio/bechhjxig.mp3").default,
   },
   {
@@ -168,7 +168,7 @@ const animals: Animal[] = [
   {
     zapoteco: "wexhib",
     translation: <Translate id="roadrunner" />,
-    // img: require("@site/static/img/roadrunner.svg").default,
+    img: require("@site/static/img/roadrunner.svg").default,
     // audio: require("@site/static/audio/wexhib.mp3").default,
   },
   {
