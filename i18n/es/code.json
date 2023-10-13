@@ -513,5 +513,56 @@
   },
   "cougar": {
     "message": "puma"
+  },
+  "me": {
+    "message": "yo"
+  },
+  "you": {
+    "message": "tu"
+  },
+  "he": {
+    "message": "él"
+  },
+  "she": {
+    "message": "ella"
+  },
+  "them (at least one male)": {
+    "message": "ellos"
+  },
+  "them (all female)": {
+    "message": "ellas"
+  },
+  "us (includes person you are talking to)": {
+    "message": "nosotros"
+  },
+  "us (excluding person you are talking to)": {
+    "message": "nosotros"
+  },
+  "you all (excluding me)": {
+    "message": "ustedes"
+  },
+  "father": {
+    "message": "padre"
+  },
+  "mother": {
+    "message": "madre"
+  },
+  "sibling": {
+    "message": "hermano/a"
+  },
+  "sister": {
+    "message": "hermana"
+  },
+  "brother": {
+    "message": "hermano"
+  },
+  "grandmother": {
+    "message": "abuela"
+  },
+  "grandfather": {
+    "message": "abuelo"
+  },
+  "Pronoun": {
+    "message": "Pronombre"
   }
 }
