@@ -11,7 +11,7 @@ import {TuzaGulja} from "@site/src/const/verses";
 **Songwriter**: Narciso Guzmán de Santo Domingo Yojovi<br/>
 **Composer**: Martín Marcial de San Francisco Yateé
 
-La canción original está en [YouTube](https://youtu.be/yKNxeF4KMsY)! Hay algunas diferencias entre el zapoteco de Santo 
+La canción original está en [YouTube](https://youtu.be/lwwhlgnOpls?si=BaByUcG1JsoHecyk)! Hay algunas diferencias entre el zapoteco de Santo 
 Domingo Yojovi y San Francisco Cajonos, por lo que la letra a continuación y la de la canción original diferirán; pero 
 el sentimiento fue traducido para significar lo mismo en el zapoteco variante San Fancisco Cajonos.
 

@@ -11,7 +11,7 @@ import {TuzaGulja} from "@site/src/const/verses";
 **Songwriter**: Narciso Guzmán from Santo Domingo Yojovi<br/>
 **Composer**: Martín Marcial from San Francisco Yateé
 
-Original song is on [YouTube](https://youtu.be/yKNxeF4KMsY)! There are some differences between Zapoteco from Santo 
+Original song is on [YouTube](https://youtu.be/lwwhlgnOpls?si=BaByUcG1JsoHecyk)! There are some differences between Zapoteco from Santo 
 Domingo Yojovi and San Francisco Cajonos, so the lyrics below and from the original song will differ but the sentiment 
 was translated to mean the same thing in Zapoteco San Fancisco Cajonos variant.
 

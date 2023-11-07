@@ -13,7 +13,7 @@ export const Yelenban: Verse = {
       Blis jalhaguká yaba <br />
       bzu xhinhu yejtilh. <br />
       Bnhix nhis ya'a, nhis ban <br />
-      chha yadau.
+      chhalh yadau.
       <br />
       Bzenhag ka chhul-chhne byindauka <br />
       Bene nhawnha guxa: <br />
@@ -43,14 +43,14 @@ export const Yelenban: Verse = {
 export const TuzaGulja: Verse = {
   zapoteco: (
     <p>
-      Tuza gulja, tuza geita <br />
-      lao yesh liu dao ni dega ni <br />
-      ka uxhane nhede bibyukse blene <br />
-      chhbell xnha dawa ni <br />
+      Tuz gulja, tuz geita <br />
+      lao yeshliu daoni dega ni <br />
+      ka uxhane nhed bibyukse blene <br />
+      chhbell xnhadawa ni <br />
       Nul ka naku le <br />
       kata gakdu she tuzu gulju dani <br />
       Nul ka naku le <br />
-      ben sankse chhakse ga ni <br />
+      benzankse chhakse ga ni <br />
       Naka bi udashag, chhun yel we <br />
       Nachho gakdu nie chu le <br />
       Na chhun nhed xbab <br />
