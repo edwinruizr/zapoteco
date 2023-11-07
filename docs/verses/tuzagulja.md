@@ -1,0 +1,20 @@
+---
+title: Tuza Gulja
+description: Song originally written by Narciso Guzmán de Santo Domingo Yojovi
+keywords: [tuza gulja, zapoteco]
+---
+import {VerticallyDividedContent} from '@site/src/components/VerticallyDividedContent';
+import {TuzaGulja} from "@site/src/const/verses";
+
+# Tuza Gulja
+
+**Songwriter**: Narciso Guzmán from Santo Domingo Yojovi<br/>
+**Composer**: Martín Marcial from San Francisco Yateé
+
+Original song is on [YouTube](https://youtu.be/yKNxeF4KMsY)! There are some differences between Zapoteco from Santo 
+Domingo Yojovi and San Francisco Cajonos, so the lyrics below and from the original song will differ but the sentiment 
+was translated to mean the same thing in Zapoteco San Fancisco Cajonos variant.
+
+**Cajonos translation**: Leonel Palacios
+
+<VerticallyDividedContent leftContent={TuzaGulja.zapoteco} rightContent={TuzaGulja.translation} />

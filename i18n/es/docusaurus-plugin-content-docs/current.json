@@ -10,5 +10,13 @@
   "sidebar.tutorialSidebar.category.Basics.link.generated-index.description": {
     "message": "Aprenda los conceptos básicos del dialecto, incluido el alfabeto y los números. Por último aprende con tarjetas didácticas.",
     "description": "The generated-index page description for category Basics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Verses": {
+    "message": "Versos",
+    "description": "The label for category Verses in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Verses.link.generated-index.description": {
+    "message": "Versos y canciones escritas en zapoteco junto con sus traducciones.",
+    "description": "The generated-index page description for category Verses in sidebar tutorialSidebar"
   }
 }

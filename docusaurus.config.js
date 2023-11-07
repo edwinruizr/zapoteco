@@ -123,6 +123,10 @@ const config = {
                 label: "Healing Herbs",
                 to: "/docs/herbs",
               },
+              {
+                label: "Verses",
+                to: "/docs/category/verses",
+              },
             ],
           },
           {

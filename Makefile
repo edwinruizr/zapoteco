@@ -11,3 +11,6 @@ lint:
 
 deploy_gh:
 	USE_SSH=true npm run deploy
+
+translate:
+	npm run write-translations -- --locale es
