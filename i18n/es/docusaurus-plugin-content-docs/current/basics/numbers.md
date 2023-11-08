@@ -18,6 +18,7 @@ términos (_chhua_ y _echhua_), del 41 al 59 el (_eyun_ y _yun_), del 61 al 79 (
 dos últimas veintenas, los términos se anteponen a los numerales como se puede ver en el cuadro[^1].
 
 Las centenas se forman diciendo el dígito multiplicador antes de la palabra cien (gayua):
+
 - tu gayua [100]
 - chup gayua [200]
 - shun gayua [300]
@@ -26,4 +27,5 @@ Las centenas se forman diciendo el dígito multiplicador antes de la palabra cie
 <NumbersTable/>
 
 ## Referencias
+
 [^1]: Rodriguez Silva, A. (1999). Breves Apuntes Historicos y Etnograficos de San Francisco Cajonos Villa Alta, Oaxaca. CEDES-22

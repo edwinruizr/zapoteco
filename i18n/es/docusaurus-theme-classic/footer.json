@@ -45,6 +45,6 @@
   },
   "link.item.label.Verses": {
     "message": "Versos",
-    "description": "The label of footer link with label=Verses linking to /docs/verses"
+    "description": "The label of footer link with label=Verses linking to /docs/category/verses"
   }
 }

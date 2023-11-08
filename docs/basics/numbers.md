@@ -17,7 +17,8 @@ Note that the key is twentieth, the numerals from 1 to 20 are repeated, from 21 
 are added to the numerals, from 41 to 59 (_eyun_ and _yun_), from 61 to 79 (gayun), and from 81 to 99 (taplaj), in these 
 last two scores, the terms are placed before the numerals as can be seen in the table[^1].
 
-Hundreds are formed by saying the multiplier digit before the word for hundred (gayua): 
+Hundreds are formed by saying the multiplier digit before the word for hundred (gayua):
+
 - tu gayua [100]
 - chup gayua [200]
 - shun gayua [300]
@@ -26,4 +27,5 @@ Hundreds are formed by saying the multiplier digit before the word for hundred (
 <NumbersTable/>
 
 ## References
+
 [^1]: Rodriguez Silva, A. (1999). Breves Apuntes Historicos y Etnograficos de San Francisco Cajonos Villa Alta, Oaxaca. CEDES-22

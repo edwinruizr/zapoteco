@@ -7,7 +7,9 @@ install_lint:
 	npm install; npm install markdown-table-formatter -g; gem install mdl
 
 lint:
-	markdown-table-formatter **/*.md; mdl ./docs ./i18n
+# mdl rules https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md
+# ~ means ignore the rule
+	markdown-table-formatter **/*.md; mdl -r~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
 
 deploy_gh:
 	USE_SSH=true npm run deploy

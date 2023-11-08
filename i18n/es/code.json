@@ -639,5 +639,25 @@
   },
   "tuz_gulj-16": {
     "message": "olvidarte para siempre."
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Página sin clasificar",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "Esta página está sin clasificar. Los motores de búsqueda no la indexaran, y solo los usuarios con el enlace directo podrán acceder a esta.",
+    "description": "The unlisted content banner message"
   }
 }
