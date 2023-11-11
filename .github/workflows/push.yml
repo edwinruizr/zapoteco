@@ -38,9 +38,9 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Install tools
-        run: npm install markdown-table-formatter -g; gem install --user-install -n~/bin mdl
+        run: npm install markdown-table-formatter -g; gem install --user-install -n./ mdl
       - name: Lint
-        run: markdown-table-formatter **/*.md; mdl -r~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
+        run: markdown-table-formatter **/*.md; ./mdl -r~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
       - name: Summary
         run: echo "### Already Linted! :clap::clap::clap:" >> $GITHUB_STEP_SUMMARY
   translations:
