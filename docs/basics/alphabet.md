@@ -23,6 +23,7 @@ Similar to other languages Zapoteco has it's alphabet totaling to 32 sounds: 5 v
 | <Link to="#a">**a**</Link> | <Link to="#e">**e**</Link> | <Link to="#i">**i**</Link> | <Link to="#o">**o**</Link> | <Link to="#u">**u**</Link> |
 
 Many of the consonants are like consonants in English/Spanish but some have special pronunciations in Zapoteco, they are listed below:
+
 - <Link to="#ll">ll</Link>
 - <Link to="#x">x</Link>
 - <Link to="#xh">xh</Link>

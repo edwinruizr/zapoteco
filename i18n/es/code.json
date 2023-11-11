@@ -564,5 +564,100 @@
   },
   "Pronoun": {
     "message": "Pronombre"
+  },
+  "yelenban-1": {
+    "message": "Tú y yo"
+  },
+  "yelenban-2": {
+    "message": "Levanta tu mirada al cielo."
+  },
+  "yelenban-3": {
+    "message": "Respira el aroma de la azucena."
+  },
+  "yelenban-4": {
+    "message": "Saboren el agua, viva que "
+  },
+  "yelenban-5": {
+    "message": "brota de la montaña."
+  },
+  "yelenban-6": {
+    "message": "Escucha el canto y gorgojeo de los pajaritos."
+  },
+  "yelenban-7": {
+    "message": "Toma mi mano entre las tuyas."
+  },
+  "yelenban-8": {
+    "message": "¿Te das cuenta?"
+  },
+  "yelenban-9": {
+    "message": "Esto es vivir"
+  },
+  "tuz_gulj-1": {
+    "message": "solo naci, solo voy a morir"
+  },
+  "tuz_gulj-2": {
+    "message": "en esta pequeña tierra de aqui"
+  },
+  "tuz_gulj-3": {
+    "message": "cuando me dio a luz, vio que yo era hombre,"
+  },
+  "tuz_gulj-4": {
+    "message": "lloró mi mamacita"
+  },
+  "tuz_gulj-5": {
+    "message": "mujeres como tú,"
+  },
+  "tuz_gulj-6": {
+    "message": "no pienses que eres la unica que nació aqui"
+  },
+  "tuz_gulj-7": {
+    "message": "mujeres como tú,"
+  },
+  "tuz_gulj-8": {
+    "message": "muchas existen aqui"
+  },
+  "tuz_gulj-9": {
+    "message": "soy parrandero, soy tomador"
+  },
+  "tuz_gulj-10": {
+    "message": "no pienses que por ti"
+  },
+  "tuz_gulj-11": {
+    "message": "y estoy pensando"
+  },
+  "tuz_gulj-12": {
+    "message": "olvidarte para siempre"
+  },
+  "tuz_gulj-13": {
+    "message": "déjala me dicen mis compas"
+  },
+  "tuz_gulj-14": {
+    "message": "hay muchas como ella"
+  },
+  "tuz_gulj-15": {
+    "message": "y estoy pensando,"
+  },
+  "tuz_gulj-16": {
+    "message": "olvidarte para siempre."
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Página sin clasificar",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "Esta página está sin clasificar. Los motores de búsqueda no la indexaran, y solo los usuarios con el enlace directo podrán acceder a esta.",
+    "description": "The unlisted content banner message"
   }
 }

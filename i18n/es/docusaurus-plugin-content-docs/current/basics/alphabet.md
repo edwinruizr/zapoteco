@@ -24,6 +24,7 @@ consonantes. Los 5 vocales son similares al inglés/español:
 
 Muchas de las consonantes son como consonantes en inglés/español, pero algunas tienen pronunciaciones especiales en 
 Zapoteco, se enumeran a continuación:
+
 - <Link to="#ll">ll</Link>
 - <Link to="#x">x</Link>
 - <Link to="#xh">xh</Link>
