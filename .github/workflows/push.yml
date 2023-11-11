@@ -3,8 +3,6 @@ on:
   push:
     branches-ignore: [main]
 
-branding: git-commit
-
 env:
   NODE_VERSION: "20.6.1"
 
