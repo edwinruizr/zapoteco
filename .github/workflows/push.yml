@@ -1,0 +1,65 @@
+name: test on push
+on:
+  push:
+    branches-ignore: [main]
+
+branding: git-commit
+
+env:
+  NODE_VERSION: "20.6.1"
+
+jobs:
+  build:
+    name: Test build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Build
+        run: npm run build --if-present
+  lint:
+    name: Test lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Install tools
+        run: npm install; npm install markdown-table-formatter -g; gem install mdl
+      - name: Lint
+        run: markdown-table-formatter **/*.md; mdl -r~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
+  translations:
+    name: Test translations up to date
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+      - name: Translate
+        run: npm run write-translations -- --locale es
+      - name: Test no changes
+        run: |
+          if [ -z "$(git status --short)" ]; then
+            echo "Translations up to date"; exit 1
+          else
+            echo "Translations missing"; exit 0
+          fi
+
+
+
