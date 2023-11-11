@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Install tools
-        run: npm install markdown-table-formatter -g; gem install --user-install mdl
+        run: npm install markdown-table-formatter -g; gem install --user-install -n~/bin mdl
       - name: Lint
         run: markdown-table-formatter **/*.md; mdl -r~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
       - name: Summary
@@ -65,7 +65,7 @@ jobs:
             echo "### Translations up to date! :earth_americas:" >> $GITHUB_STEP_SUMMARY
           else
             echo "### Translations missing! :weary::earth_americas:" >> $GITHUB_STEP_SUMMARY
-            echo "::error::Translations missing ";
+            exit 1
           fi
 
 
