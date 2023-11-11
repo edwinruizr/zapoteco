@@ -9,7 +9,7 @@ install_lint:
 lint:
 # mdl rules https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md
 # ~ means ignore the rule
-	markdown-table-formatter **/*.md; mdl -r~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
+	markdown-table-formatter **/*.md; mdl -r~MD007,~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
 
 deploy_gh:
 	USE_SSH=true npm run deploy
