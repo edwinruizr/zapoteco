@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
+      - name: Install dependencies
+        run: npm install
       - name: Build
         run: npm run build --if-present
   lint:
@@ -34,7 +36,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: Install tools
-        run: npm install; npm install markdown-table-formatter -g; gem install mdl
+        run: npm install markdown-table-formatter -g; gem install mdl
       - name: Lint
         run: markdown-table-formatter **/*.md; mdl -r~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
   translations:
@@ -49,6 +51,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
+      - name: Install dependencies
+        run: npm install
       - name: Translate
         run: npm run write-translations -- --locale es
       - name: Test no changes
