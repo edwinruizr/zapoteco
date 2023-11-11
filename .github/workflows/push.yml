@@ -23,6 +23,8 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build --if-present
+      - name: Summary
+        run: echo "### Build successful! :building_construction::rocket:" >> $GITHUB_STEP_SUMMARY
   lint:
     name: Test lint
     runs-on: ubuntu-latest
@@ -39,6 +41,8 @@ jobs:
         run: npm install markdown-table-formatter -g; gem install --user-install mdl
       - name: Lint
         run: markdown-table-formatter **/*.md; mdl -r~MD013,~MD009,~MD002,~MD033 README.md ./docs ./i18n
+      - name: Summary
+        run: echo "### Already Linted! :clap::clap::clap:" >> $GITHUB_STEP_SUMMARY
   translations:
     name: Test translations up to date
     runs-on: ubuntu-latest
@@ -58,9 +62,10 @@ jobs:
       - name: Test no changes
         run: |
           if [ -z "$(git status --short)" ]; then
-            echo "::debug::Translations up to date :clap::clap::clap:"; exit 0
+            echo "### Translations up to date! :earth_americas:" >> $GITHUB_STEP_SUMMARY
           else
-            echo "::error title={Translations missing}::"; exit 1
+            echo "### Translations missing! :weary::earth_americas:" >> $GITHUB_STEP_SUMMARY
+            echo "::error::Translations missing ";
           fi
 
 
