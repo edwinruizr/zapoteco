@@ -39,6 +39,10 @@ export const pronouns: Noun[] = [
     zapoteco: "lhe'e",
     noun: <Translate id={"you all (excluding me)"} />,
   },
+  {
+    zapoteco: "yugchhu",
+    noun: <Translate id={"everyone"} />,
+  },
 ];
 export const nouns: Noun[] = [
   {
