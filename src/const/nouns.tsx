@@ -39,6 +39,10 @@ export const pronouns: Noun[] = [
     zapoteco: "lhe'e",
     noun: <Translate id={"you all (excluding me)"} />,
   },
+  {
+    zapoteco: "yugchhu",
+    noun: <Translate id={"everyone"} />,
+  },
 ];
 export const nouns: Noun[] = [
   {
@@ -48,6 +52,10 @@ export const nouns: Noun[] = [
   {
     zapoteco: "xna'",
     noun: <Translate id={"mother"} />,
+  },
+  {
+    zapoteco: "xhína",
+    noun: <Translate id={"son/daughter"} />,
   },
   {
     zapoteco: "bizan",
@@ -62,11 +70,67 @@ export const nouns: Noun[] = [
     noun: <Translate id={"brother"} />,
   },
   {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"aunt"} />,
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"uncle"} />,
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"nephew"} />, // sobrino
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"niece"} />, // sobrina
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"grandson"} />, // nieto
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"granddaughter"} />, // nieta
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"step mother"} />, // madrastra
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"step father"} />, // padrastro
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"step brother"} />, // hermanastro
+  },
+  {
+    zapoteco: "", // TODO: ask about this
+    noun: <Translate id={"step sister"} />, // hermanastra
+  },
+  {
+    zapoteco: "gen", // TODO: ask about this
+    noun: <Translate id={"newborn"} />, // sobrino
+  },
+  {
+    zapoteco: "bdaw", // TODO: ask about this
+    noun: <Translate id={"baby"} />, // sobrina
+  },
+  {
     zapoteco: "tawa",
     noun: <Translate id={"grandmother"} />,
   },
   {
     zapoteco: "xtawa",
     noun: <Translate id={"grandfather"} />,
+  },
+  {
+    zapoteco: "tawgucha",
+    noun: <Translate id={"great grandmother"} />,
+  },
+  {
+    zapoteco: "xtawagucha",
+    noun: <Translate id={"great grandfather"} />,
   },
 ];

@@ -659,5 +659,179 @@
   "theme.unlistedContent.message": {
     "message": "Esta página está sin clasificar. Los motores de búsqueda no la indexaran, y solo los usuarios con el enlace directo podrán acceder a esta.",
     "description": "The unlisted content banner message"
+  },
+  "everyone": {
+    "message": "todos"
+  },
+  "son/daughter": {
+    "message": "hijo/hija"
+  },
+  "aunt": {
+    "message": "tia"
+  },
+  "uncle": {
+    "message": "tio"
+  },
+  "nephew": {
+    "message": "sobrino"
+  },
+  "niece": {
+    "message": "sobrina"
+  },
+  "grandson": {
+    "message": "nieto"
+  },
+  "granddaughter": {
+    "message": "nieta"
+  },
+  "step mother": {
+    "message": "madrastra"
+  },
+  "step father": {
+    "message": "padrastro"
+  },
+  "step brother": {
+    "message": "hermanastro"
+  },
+  "step sister": {
+    "message": "hermanastra"
+  },
+  "newborn": {
+    "message": "recién nacido"
+  },
+  "baby": {
+    "message": "bebé"
+  },
+  "great grandmother": {
+    "message": "bisabuela"
+  },
+  "great grandfather": {
+    "message": "bisabuelo"
+  },
+  "want": {
+    "message": "querer"
+  },
+  "eat": {
+    "message": "comer"
+  },
+  "dance": {
+    "message": "bailar"
+  },
+  "cry": {
+    "message": "llorar"
+  },
+  "jump": {
+    "message": "brincar"
+  },
+  "laugh": {
+    "message": "reir"
+  },
+  "shower": {
+    "message": "bañar"
+  },
+  "sow": {
+    "message": "sembrar"
+  },
+  "play": {
+    "message": "jugar"
+  },
+  "sleep": {
+    "message": "dormir"
+  },
+  "run": {
+    "message": "correr"
+  },
+  "write": {
+    "message": "escribir"
+  },
+  "clean": {
+    "message": "limpiar"
+  },
+  "fight": {
+    "message": "pelear"
+  },
+  "practice": {
+    "message": "prácticar"
+  },
+  "study": {
+    "message": "estudiar"
+  },
+  "look": {
+    "message": "mirar"
+  },
+  "rest": {
+    "message": "descansar"
+  },
+  "i_laughed": {
+    "message": "Yo me rei"
+  },
+  "you_laughed": {
+    "message": "Tu te reiste"
+  },
+  "he_she_laughed": {
+    "message": "El/Ella se rio"
+  },
+  "we_laughed": {
+    "message": "Nosotros reimos"
+  },
+  "you_all_laughed": {
+    "message": "Ustedes se rieron"
+  },
+  "they_laughed": {
+    "message": "Ellos se rieron"
+  },
+  "everyone_laughed": {
+    "message": "Todos reimos"
+  },
+  "i_laugh": {
+    "message": "Yo me rio"
+  },
+  "you_laugh": {
+    "message": "Tu te reies"
+  },
+  "he_she_laughs": {
+    "message": "El/Ella se rie"
+  },
+  "we_laugh": {
+    "message": "Nosotros reimos"
+  },
+  "you_all_laugh": {
+    "message": "Ustedes se rein"
+  },
+  "they_laugh": {
+    "message": "Ellos rein"
+  },
+  "everyone_laughs": {
+    "message": "Todos nos reimos"
+  },
+  "i_will_laugh": {
+    "message": "Yo me voy a reir"
+  },
+  "you_will_laugh": {
+    "message": "Tu te vas a reir"
+  },
+  "he_she_will_laugh": {
+    "message": "El/ella se va a reir"
+  },
+  "we_will_laugh": {
+    "message": "Nosotros nos vamos a reir"
+  },
+  "you_all_will_laugh": {
+    "message": "Ustedes se van a reir"
+  },
+  "they_will_laugh": {
+    "message": "Ellos se van a reir"
+  },
+  "everyone_will_laugh": {
+    "message": "Todos nos vamos a reir"
+  },
+  "Past tense": {
+    "message": "Tiempo pasado"
+  },
+  "Present tense": {
+    "message": "Tiempo presente"
+  },
+  "Future tense": {
+    "message": "Tiempo futuro"
   }
 }
