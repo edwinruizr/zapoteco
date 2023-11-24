@@ -833,5 +833,131 @@
   },
   "Future tense": {
     "message": "Tiempo futuro"
+  },
+  "i_wanted": {
+    "message": "Yo quería"
+  },
+  "you_wanted": {
+    "message": "Tu querías"
+  },
+  "he_she_wanted": {
+    "message": "El/Ella quería"
+  },
+  "we_wanted": {
+    "message": "Nostros queríamos"
+  },
+  "you_all_wanted": {
+    "message": "Ustedes querían"
+  },
+  "they_wanted": {
+    "message": "Ellos querían"
+  },
+  "everyone_wanted": {
+    "message": "Todos queríamos"
+  },
+  "i_want": {
+    "message": "Yo quiero"
+  },
+  "you_want": {
+    "message": "Tu quieres"
+  },
+  "he_she_wants": {
+    "message": "El/Ella quiere"
+  },
+  "we_want": {
+    "message": "Nosotros queremos"
+  },
+  "you_all_want": {
+    "message": "Ustedes quieren"
+  },
+  "they_want": {
+    "message": "Ellos quieren"
+  },
+  "everyone_wants": {
+    "message": "Todos quieren"
+  },
+  "i_will_want": {
+    "message": "Yo voy a querer"
+  },
+  "you_will_want": {
+    "message": "Tu querrás"
+  },
+  "he_she_will_want": {
+    "message": "El/Ella querrá"
+  },
+  "we_will_want": {
+    "message": "Nosotros querrámos"
+  },
+  "you_all_will_want": {
+    "message": "Ustedes querrán"
+  },
+  "they_will_want": {
+    "message": "Ellos querrán"
+  },
+  "everyone_will_want": {
+    "message": "Todos querrán"
+  },
+  "i_waited": {
+    "message": "Yo esperé"
+  },
+  "you_waited": {
+    "message": "Tu esperastes"
+  },
+  "he_she_waited": {
+    "message": "El/Ella esperó"
+  },
+  "we_waited": {
+    "message": "Nosotros esperamos"
+  },
+  "you_all_waited": {
+    "message": "Ustedes esperaron"
+  },
+  "they_waited": {
+    "message": "Ellos esperaron"
+  },
+  "everyone_waited": {
+    "message": "Todos esperamos"
+  },
+  "i_wait": {
+    "message": "Yo espero"
+  },
+  "you_wait": {
+    "message": "Tu esperas"
+  },
+  "he_she_waits": {
+    "message": "El/Ella espera"
+  },
+  "we_wait": {
+    "message": "Nosotros esperamos"
+  },
+  "you_all_wait": {
+    "message": "Ustedes esperan"
+  },
+  "they_wait": {
+    "message": "Ellos esperan"
+  },
+  "everyone_waits": {
+    "message": "Todos esperamos"
+  },
+  "i_will_wait": {
+    "message": "Yo esperaré"
+  },
+  "you_will_wait": {
+    "message": "Tu esperarás"
+  },
+  "he_she_will_wait": {
+    "message": "El/Ella esperará"
+  },
+  "we_will_wait": {
+    "message": "Nostros esperaremos"
+  },
+  "you_all_will_wait": {
+    "message": "Ustedes esperarán"
+  },
+  "they_will_wait": {
+    "message": "Ellos esperarán"
+  },
+  "everyone_will_wait": {
+    "message": "Todos esperaremos"
   }
 }

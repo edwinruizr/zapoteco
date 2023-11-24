@@ -160,4 +160,144 @@ export const verbConjugations: VerbTenses[] = [
       },
     },
   },
+  {
+    verb: "chhenda",
+    past: {
+      // De' Baude			Pasado
+      translation: {
+        I: <Translate id={"i_wanted"}>I wanted</Translate>,
+        You: <Translate id={"you_wanted"}>You wanted</Translate>,
+        he_she: <Translate id={"he_she_wanted"}>He/She wanted</Translate>,
+        We: <Translate id={"we_wanted"}>We wanted</Translate>,
+        You_all: <Translate id={"you_all_wanted"}>You all wanted</Translate>,
+        They: <Translate id={"they_wanted"}>They wanted</Translate>,
+        Everyone: <Translate id={"everyone_wanted"}>Everyone wanted</Translate>,
+      },
+      zapoteco: {
+        I: "Nhed gunda",
+        You: "Lhe gundu",
+        he_she: "Leba guneba",
+        We: "Chhaw gunechhu",
+        You_all: "Lhe'e gunelhe",
+        They: "Lekba gunkeba",
+        Everyone: "Yugchhu gunechhu",
+      },
+    },
+    present: {
+      // De' chhak			Presente
+      translation: {
+        I: <Translate id={"i_want"}>I want</Translate>,
+        You: <Translate id={"you_want"}>You want</Translate>,
+        he_she: <Translate id={"he_she_wants"}>He/She wants</Translate>,
+        We: <Translate id={"we_want"}>We want</Translate>,
+        You_all: <Translate id={"you_all_want"}>You all want</Translate>,
+        They: <Translate id={"they_want"}>They want</Translate>,
+        Everyone: <Translate id={"everyone_wants"}>Everyone wants</Translate>,
+      },
+      zapoteco: {
+        I: "Nhed chhenda",
+        You: "Lhe chhendu",
+        he_she: "Leba chhenaba",
+        We: "Chhaw chhenechhu",
+        You_all: "Lhe'e chhennelhe",
+        They: "Lekba chhenkeba",
+        Everyone: "Yugchhu chhenechhu",
+      },
+    },
+    future: {
+      // De' ze gak			Futuro
+      translation: {
+        I: <Translate id={"i_will_want"}>I will want</Translate>,
+        You: <Translate id={"you_will_want"}>You will want</Translate>,
+        he_she: <Translate id={"he_she_will_want"}>He/she will want</Translate>,
+        We: <Translate id={"we_will_want"}>We will want</Translate>,
+        You_all: (
+          <Translate id={"you_all_will_want"}>You all will want</Translate>
+        ),
+        They: <Translate id={"they_will_want"}>They will want</Translate>,
+        Everyone: (
+          <Translate id={"everyone_will_want"}>Everyone will want</Translate>
+        ),
+      },
+      zapoteco: {
+        I: "Nhed ganda",
+        You: "Lhe gandu",
+        he_she: "Leba geneba",
+        We: "Chhaw genechhu",
+        You_all: "Lhe'e genelhe",
+        They: "Lekba genkeba",
+        Everyone: "Yugchhu genechhu",
+      },
+    },
+  },
+  {
+    verb: "kuez",
+    past: {
+      // De' Baude			Pasado
+      translation: {
+        I: <Translate id={"i_waited"}>I waited</Translate>,
+        You: <Translate id={"you_waited"}>You waited</Translate>,
+        he_she: <Translate id={"he_she_waited"}>He/She waited</Translate>,
+        We: <Translate id={"we_waited"}>We waited</Translate>,
+        You_all: <Translate id={"you_all_waited"}>You all waited</Translate>,
+        They: <Translate id={"they_waited"}>They waited</Translate>,
+        Everyone: <Translate id={"everyone_waited"}>Everyone waited</Translate>,
+      },
+      zapoteco: {
+        I: "Nhed blez",
+        You: "Lhe blezu",
+        he_she: "Leba blezba",
+        We: "Chhaw blezchhu",
+        You_all: "Lhe'e blezlhe",
+        They: "Lekba blezekba",
+        Everyone: "Yugchhu blezchhu",
+      },
+    },
+    present: {
+      // De' chhak			Presente
+      translation: {
+        I: <Translate id={"i_wait"}>I wait</Translate>,
+        You: <Translate id={"you_wait"}>You wait</Translate>,
+        he_she: <Translate id={"he_she_waits"}>He/She waits</Translate>,
+        We: <Translate id={"we_wait"}>We wait</Translate>,
+        You_all: <Translate id={"you_all_wait"}>You all wait</Translate>,
+        They: <Translate id={"they_wait"}>They wait</Translate>,
+        Everyone: <Translate id={"everyone_waits"}>Everyone waits</Translate>,
+      },
+      zapoteco: {
+        I: "Nhed shebz",
+        You: "Lhe shebzu",
+        he_she: "Leba shebzba",
+        We: "Chhaw shebzchhu",
+        You_all: "Lhe'e shebzlhe",
+        They: "Lekba shebzekba",
+        Everyone: "Yugchhu shebzchhu",
+      },
+    },
+    future: {
+      // De' ze gak			Futuro
+      translation: {
+        I: <Translate id={"i_will_wait"}>I will wait</Translate>,
+        You: <Translate id={"you_will_wait"}>You will wait</Translate>,
+        he_she: <Translate id={"he_she_will_wait"}>He/she will wait</Translate>,
+        We: <Translate id={"we_will_wait"}>We will wait</Translate>,
+        You_all: (
+          <Translate id={"you_all_will_wait"}>You all will wait</Translate>
+        ),
+        They: <Translate id={"they_will_wait"}>They will wait</Translate>,
+        Everyone: (
+          <Translate id={"everyone_will_wait"}>Everyone will wait</Translate>
+        ),
+      },
+      zapoteco: {
+        I: "Nhed kuez",
+        You: "Lhe kuezu",
+        he_she: "Leba kuezba",
+        We: "Chhaw kuezchhu",
+        You_all: "Lhe'e kuezlhe",
+        They: "Lekba kuezekba",
+        Everyone: "Yugchhu kuezchhu",
+      },
+    },
+  },
 ];
