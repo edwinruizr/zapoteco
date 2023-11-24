@@ -165,13 +165,13 @@ export const verbConjugations: VerbTenses[] = [
     past: {
       // De' Baude			Pasado
       translation: {
-        I: <Translate id={"i_wanted"}>I wanted</Translate>, // Yo me rei
-        You: <Translate id={"you_wanted"}>You wanted</Translate>, // Tu te reiste
-        he_she: <Translate id={"he_she_wanted"}>He/She wanted</Translate>, // El/Ella se rio
-        We: <Translate id={"we_wanted"}>We wanted</Translate>, // Nosotros reimos
-        You_all: <Translate id={"you_all_wanted"}>You all wanted</Translate>, // Ustedes se rieron
-        They: <Translate id={"they_wanted"}>They wanted</Translate>, // Ellos se rieron
-        Everyone: <Translate id={"everyone_wanted"}>Everyone wanted</Translate>, // Todos reimos
+        I: <Translate id={"i_wanted"}>I wanted</Translate>,
+        You: <Translate id={"you_wanted"}>You wanted</Translate>,
+        he_she: <Translate id={"he_she_wanted"}>He/She wanted</Translate>,
+        We: <Translate id={"we_wanted"}>We wanted</Translate>,
+        You_all: <Translate id={"you_all_wanted"}>You all wanted</Translate>,
+        They: <Translate id={"they_wanted"}>They wanted</Translate>,
+        Everyone: <Translate id={"everyone_wanted"}>Everyone wanted</Translate>,
       },
       zapoteco: {
         I: "Nhed gunda",
@@ -235,13 +235,13 @@ export const verbConjugations: VerbTenses[] = [
     past: {
       // De' Baude			Pasado
       translation: {
-        I: <Translate id={"i_waited"}>I waited</Translate>, // Yo me rei
-        You: <Translate id={"you_waited"}>You waited</Translate>, // Tu te reiste
-        he_she: <Translate id={"he_she_waited"}>He/She waited</Translate>, // El/Ella se rio
-        We: <Translate id={"we_waited"}>We waited</Translate>, // Nosotros reimos
-        You_all: <Translate id={"you_all_waited"}>You all waited</Translate>, // Ustedes se rieron
-        They: <Translate id={"they_waited"}>They waited</Translate>, // Ellos se rieron
-        Everyone: <Translate id={"everyone_waited"}>Everyone waited</Translate>, // Todos reimos
+        I: <Translate id={"i_waited"}>I waited</Translate>,
+        You: <Translate id={"you_waited"}>You waited</Translate>,
+        he_she: <Translate id={"he_she_waited"}>He/She waited</Translate>,
+        We: <Translate id={"we_waited"}>We waited</Translate>,
+        You_all: <Translate id={"you_all_waited"}>You all waited</Translate>,
+        They: <Translate id={"they_waited"}>They waited</Translate>,
+        Everyone: <Translate id={"everyone_waited"}>Everyone waited</Translate>,
       },
       zapoteco: {
         I: "Nhed blez",
@@ -256,13 +256,13 @@ export const verbConjugations: VerbTenses[] = [
     present: {
       // De' chhak			Presente
       translation: {
-        I: <Translate id={"i_wait"}>I wait</Translate>, // Yo me rio
-        You: <Translate id={"you_wait"}>You wait</Translate>, // Tu te reies
-        he_she: <Translate id={"he_she_waits"}>He/She waits</Translate>, // El/Ella se rie
-        We: <Translate id={"we_wait"}>We wait</Translate>, // Nosotros reimos
-        You_all: <Translate id={"you_all_wait"}>You all wait</Translate>, // Ustedes se rein
-        They: <Translate id={"they_wait"}>They wait</Translate>, // Ellos rein
-        Everyone: <Translate id={"everyone_waits"}>Everyone waits</Translate>, // Todos nos reimos
+        I: <Translate id={"i_wait"}>I wait</Translate>,
+        You: <Translate id={"you_wait"}>You wait</Translate>,
+        he_she: <Translate id={"he_she_waits"}>He/She waits</Translate>,
+        We: <Translate id={"we_wait"}>We wait</Translate>,
+        You_all: <Translate id={"you_all_wait"}>You all wait</Translate>,
+        They: <Translate id={"they_wait"}>They wait</Translate>,
+        Everyone: <Translate id={"everyone_waits"}>Everyone waits</Translate>,
       },
       zapoteco: {
         I: "Nhed shebz",
@@ -277,17 +277,17 @@ export const verbConjugations: VerbTenses[] = [
     future: {
       // De' ze gak			Futuro
       translation: {
-        I: <Translate id={"i_will_wait"}>I will wait</Translate>, // Yo me voy a reir
-        You: <Translate id={"you_will_wait"}>You will wait</Translate>, // Tu te vas a reir
-        he_she: <Translate id={"he_she_will_wait"}>He/she will wait</Translate>, // El/ella se va a reir
-        We: <Translate id={"we_will_wait"}>We will wait</Translate>, // Nosotros nos vamos a reir
+        I: <Translate id={"i_will_wait"}>I will wait</Translate>,
+        You: <Translate id={"you_will_wait"}>You will wait</Translate>,
+        he_she: <Translate id={"he_she_will_wait"}>He/she will wait</Translate>,
+        We: <Translate id={"we_will_wait"}>We will wait</Translate>,
         You_all: (
           <Translate id={"you_all_will_wait"}>You all will wait</Translate>
-        ), // Ustedes se van a reir
-        They: <Translate id={"they_will_wait"}>They will wait</Translate>, // Ellos se van a reir
+        ),
+        They: <Translate id={"they_will_wait"}>They will wait</Translate>,
         Everyone: (
           <Translate id={"everyone_will_wait"}>Everyone will wait</Translate>
-        ), // Todos nos vamos a reir
+        ),
       },
       zapoteco: {
         I: "Nhed kuez",
