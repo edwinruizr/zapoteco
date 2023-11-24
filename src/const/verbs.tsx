@@ -7,6 +7,7 @@ export const verbs: Word[] = [
   {
     zapoteco: "chhenhe",
     word: <Translate id={"want"} />, // querer
+    img: require("@site/static/img/want.svg").default,
   },
   {
     zapoteco: "chhaw",
@@ -36,6 +37,7 @@ export const verbs: Word[] = [
   {
     zapoteco: "guzj",
     word: <Translate id={"shower"} />, // bañar
+    img: require("@site/static/img/shower.svg").default,
   },
   {
     zapoteco: "guz", // TODO: ask about this
@@ -71,10 +73,12 @@ export const verbs: Word[] = [
   {
     zapoteco: "budil/bdil",
     word: <Translate id={"fight"} />, // pelear
+    img: require("@site/static/img/fight.svg").default,
   },
   {
     zapoteco: "wezad",
     word: <Translate id={"practice"} />, // practicar
+    img: require("@site/static/img/practice.svg").default,
   },
   {
     zapoteco: "bzad",
@@ -83,7 +87,7 @@ export const verbs: Word[] = [
   },
   {
     zapoteco: "chhehilh",
-    word: <Translate id={"look"} />, // buscar
+    word: <Translate id={"search"} />, // buscar
     img: require("@site/static/img/look.svg").default,
   },
   {

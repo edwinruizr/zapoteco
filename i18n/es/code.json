@@ -959,5 +959,8 @@
   },
   "everyone_will_wait": {
     "message": "Todos esperaremos"
+  },
+  "search": {
+    "message": "buscar"
   }
 }
