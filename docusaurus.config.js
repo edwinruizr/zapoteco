@@ -78,6 +78,8 @@ const config = {
         logo: {
           alt: "Zapoteco Logo",
           src: "img/zapoteco.webp",
+          width: "29px",
+          height: "25px",
         },
         items: [
           {
