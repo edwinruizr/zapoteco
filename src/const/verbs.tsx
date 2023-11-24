@@ -11,23 +11,27 @@ export const verbs: Word[] = [
   {
     zapoteco: "chhaw",
     word: <Translate id={"eat"} />, // comer
+    img: require("@site/static/img/eat.svg").default,
   },
   {
     zapoteco: "weyá",
     word: <Translate id={"dance"} />, // bailar
-    img: require("@site/static/img/dance.png").img,
+    img: require("@site/static/img/dance.svg").default,
   },
   {
     zapoteco: "chhbell",
     word: <Translate id={"cry"} />, // llorar
+    img: require("@site/static/img/cry.svg").default,
   },
   {
     zapoteco: "chhxhita",
     word: <Translate id={"jump"} />, // brincar
+    img: require("@site/static/img/jump.svg").default,
   },
   {
     zapoteco: "wexhill",
     word: <Translate id={"laugh"} />, // reir
+    img: require("@site/static/img/laugh.svg").default,
   },
   {
     zapoteco: "guzj",
@@ -36,27 +40,33 @@ export const verbs: Word[] = [
   {
     zapoteco: "guz", // TODO: ask about this
     word: <Translate id={"sow"} />, // sembrar
+    img: require("@site/static/img/sow.svg").default,
   },
   {
     zapoteco: "witj",
     word: <Translate id={"play"} />, // jugar
+    img: require("@site/static/img/play.svg").default,
   },
   {
     zapoteco: "weteis",
     word: <Translate id={"sleep"} />, // dormir
+    img: require("@site/static/img/sleep.svg").default,
   },
   // TODO: ask about these spelling
   {
     zapoteco: "bxonhj",
     word: <Translate id={"run"} />, // correr
+    img: require("@site/static/img/run.svg").default,
   },
   {
     zapoteco: "bzoj",
     word: <Translate id={"write"} />, // escribir
+    img: require("@site/static/img/write.svg").default,
   },
   {
     zapoteco: "bzi",
     word: <Translate id={"clean"} />, // limpiar
+    img: require("@site/static/img/clean.svg").default,
   },
   {
     zapoteco: "budil/bdil",
@@ -69,18 +79,22 @@ export const verbs: Word[] = [
   {
     zapoteco: "bzad",
     word: <Translate id={"study"} />, // estudiar
+    img: require("@site/static/img/study.svg").default,
   },
   {
     zapoteco: "chhehilh",
     word: <Translate id={"look"} />, // buscar
+    img: require("@site/static/img/look.svg").default,
   },
   {
     zapoteco: "xullia",
     word: <Translate id={"look"} />, // mirar
+    img: require("@site/static/img/look.svg").default,
   },
   {
     zapoteco: "jezilalla",
     word: <Translate id={"rest"} />, // descansar
+    img: require("@site/static/img/rest.svg").default,
   },
 ];
 

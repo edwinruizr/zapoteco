@@ -48,26 +48,32 @@ export const nouns: Noun[] = [
   {
     zapoteco: "xa'",
     noun: <Translate id={"father"} />,
+    img: require("@site/static/img/father.svg").default,
   },
   {
     zapoteco: "xna'",
     noun: <Translate id={"mother"} />,
+    img: require("@site/static/img/mother.svg").default,
   },
   {
     zapoteco: "xhína",
     noun: <Translate id={"son/daughter"} />,
+    img: require("@site/static/img/son_daughter.svg").default,
   },
   {
     zapoteco: "bizan",
     noun: <Translate id={"sibling"} />,
+    img: require("@site/static/img/sibling.svg").default,
   },
   {
     zapoteco: "bibilh",
     noun: <Translate id={"sister"} />,
+    img: require("@site/static/img/sister.svg").default,
   },
   {
     zapoteco: "bibisha",
     noun: <Translate id={"brother"} />,
+    img: require("@site/static/img/brother.svg").default,
   },
   {
     zapoteco: "", // TODO: ask about this
@@ -94,43 +100,33 @@ export const nouns: Noun[] = [
     noun: <Translate id={"granddaughter"} />, // nieta
   },
   {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"step mother"} />, // madrastra
-  },
-  {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"step father"} />, // padrastro
-  },
-  {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"step brother"} />, // hermanastro
-  },
-  {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"step sister"} />, // hermanastra
-  },
-  {
     zapoteco: "gen", // TODO: ask about this
-    noun: <Translate id={"newborn"} />, // sobrino
+    noun: <Translate id={"newborn"} />,
+    img: require("@site/static/img/newborn.svg").default,
   },
   {
     zapoteco: "bdaw", // TODO: ask about this
-    noun: <Translate id={"baby"} />, // sobrina
+    noun: <Translate id={"baby"} />,
+    img: require("@site/static/img/baby.svg").default,
   },
   {
     zapoteco: "tawa",
     noun: <Translate id={"grandmother"} />,
+    img: require("@site/static/img/grandmother.svg").default,
   },
   {
     zapoteco: "xtawa",
     noun: <Translate id={"grandfather"} />,
+    img: require("@site/static/img/grandfather.svg").default,
   },
   {
     zapoteco: "tawgucha",
     noun: <Translate id={"great grandmother"} />,
+    img: require("@site/static/img/great_grandmother.svg").default,
   },
   {
     zapoteco: "xtawagucha",
     noun: <Translate id={"great grandfather"} />,
+    img: require("@site/static/img/great_grandfather.svg").default,
   },
 ];
