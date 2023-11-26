@@ -962,5 +962,14 @@
   },
   "search": {
     "message": "buscar"
+  },
+  "child": {
+    "message": "niño/a"
+  },
+  "young_man": {
+    "message": "joven"
+  },
+  "young_lady": {
+    "message": "jovencita"
   }
 }

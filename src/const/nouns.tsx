@@ -110,6 +110,18 @@ export const nouns: Noun[] = [
     img: require("@site/static/img/baby.svg").default,
   },
   {
+    zapoteco: "bedaw",
+    noun: <Translate id={"child"} />,
+  },
+  {
+    zapoteco: "bejueg",
+    noun: <Translate id={"young_man"} />,
+  },
+  {
+    zapoteco: "nuljueg",
+    noun: <Translate id={"young_lady"} />,
+  },
+  {
     zapoteco: "tawa",
     noun: <Translate id={"grandmother"} />,
     img: require("@site/static/img/grandmother.svg").default,

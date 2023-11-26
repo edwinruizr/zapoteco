@@ -8,6 +8,7 @@ import {TuzaGulja} from "@site/src/const/verses";
 
 # Tuza Gulja
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lwwhlgnOpls?si=pSlRRq6xHm72KhWh" title="Tozan Goljha" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 **Songwriter**: Narciso Guzmán from Santo Domingo Yojovi  
 **Composer**: Martín Marcial from San Francisco Yateé
 
