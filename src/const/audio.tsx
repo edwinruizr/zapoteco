@@ -53,5 +53,42 @@ export const xhid = "https://mcdn.podbean.com/mf/web/4w92rr/xhid.mp3";
 export const yetj = "https://mcdn.podbean.com/mf/web/m5scr9/yetj.mp3";
 export const za = "https://mcdn.podbean.com/mf/web/rfszae/za.mp3";
 export const zaa = "https://mcdn.podbean.com/mf/web/mknaag/zaa.mp3";
+export const bdaw = "https://mcdn.podbean.com/mf/web/822mec/bdaw.m4a";
+export const bdil = "https://mcdn.podbean.com/mf/web/yfdwwk/bdil.m4a";
+export const bibilh = "https://mcdn.podbean.com/mf/web/85ffw3/bibilh.m4a";
+export const bibisha = "https://mcdn.podbean.com/mf/web/f8r3a5/bibisha.m4a";
+export const bizan = "https://mcdn.podbean.com/mf/web/eswehp/bizan.m4a";
+export const bxonhj = "https://mcdn.podbean.com/mf/web/ztgvzk/bxonhj.m4a";
+export const bzad = "https://mcdn.podbean.com/mf/web/ixi6pz/bzad.m4a";
+export const bzi = "https://mcdn.podbean.com/mf/web/y4rzna/bzi.m4a";
+export const bzoj = "https://mcdn.podbean.com/mf/web/4bhsx7/bzoj.m4a";
+export const chhaw = "https://mcdn.podbean.com/mf/web/ggn2a6/chhaw.m4a";
+export const chhbell = "https://mcdn.podbean.com/mf/web/x2q9cq/chhbell.m4a";
+export const chhehilh = "https://mcdn.podbean.com/mf/web/8xgfbc/chhehilh.m4a";
+export const chhenda = "https://mcdn.podbean.com/mf/web/b476kt/chhenda.m4a";
+export const chhxhita = "https://mcdn.podbean.com/mf/web/95ifmx/chhxhita.m4a";
+export const gen = "https://mcdn.podbean.com/mf/web/5ruwut/gen.m4a";
+export const guz = "https://mcdn.podbean.com/mf/web/ear4ey/guz.m4a";
+export const jgazh = "https://mcdn.podbean.com/mf/web/7z2fyg/jgazh.m4a";
+export const udil = "https://mcdn.podbean.com/mf/web/zrbg86/udil.m4a";
+export const weteis = "https://mcdn.podbean.com/mf/web/d3bhu4/weteis.m4a";
+export const wexhill = "https://mcdn.podbean.com/mf/web/r9u4qm/wexhill.m4a";
+export const weya = "https://mcdn.podbean.com/mf/web/usnhyu/weya.m4a";
+export const wezad = "https://mcdn.podbean.com/mf/web/ffg8r8/wezad.m4a";
+export const witj = "https://mcdn.podbean.com/mf/web/kz9hk4/witj.m4a";
+export const xa = "https://mcdn.podbean.com/mf/web/4rx4bj/xa.m4a";
+export const xhina = "https://mcdn.podbean.com/mf/web/bp9ca2/xhina.m4a";
+export const xna = "https://mcdn.podbean.com/mf/web/ryugjr/xna.m4a";
 
+export const tawa = "https://mcdn.podbean.com/mf/web/ves3pm/tawa.m4a";
+export const xtawa = "https://mcdn.podbean.com/mf/web/naftgz/xtawa.m4a";
+export const tawgucha = "https://mcdn.podbean.com/mf/web/abgd7h/tawgucha.m4a";
+export const xtawagucha =
+  "https://mcdn.podbean.com/mf/web/8hamhm/xtawagucha.m4a";
+export const xullia = "https://mcdn.podbean.com/mf/web/qmhgsn/xullia.m4a";
 // NUMBERS
+export const shi_gayua = "https://mcdn.podbean.com/mf/web/bzpf8r/shi_gayua.m4a";
+export const tugalj_gayua_taplhalj_shiin_shun =
+  "https://mcdn.podbean.com/mf/web/5kwdsj/tugalj_gayua_taplhalj_shiin_shun.m4a";
+export const shinhu_gayua_tuchhua =
+  "https://mcdn.podbean.com/mf/web/kc5sij/shinhu_gayua_tuchhua.m4a";

@@ -7,6 +7,11 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import Audio from "@site/src/components/Audio";
+import {
+  shi_gayua,
+  shinhu_gayua_tuchhua,
+  tugalj_gayua_taplhalj_shiin_shun,
+} from "@site/src/const/audio";
 
 const zapotecoNumbers = [
   "", // 0
@@ -179,14 +184,17 @@ function numbers() {
     {
       number: "1000",
       zapoteco: "shi gayua",
+      audio: shi_gayua,
     },
     {
       number: "1521",
       zapoteco: "shinhu gayua tuchhua",
+      audio: shinhu_gayua_tuchhua,
     },
     {
       number: "1998",
       zapoteco: "tugalj gayua taplhalj shiin shun",
+      audio: tugalj_gayua_taplhalj_shiin_shun,
     },
   ];
 
