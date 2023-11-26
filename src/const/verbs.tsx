@@ -2,98 +2,136 @@ import Translate from "@docusaurus/Translate";
 import React from "react";
 import { Word } from "@site/src/components/word";
 import { VerbTenses } from "@site/src/components/verbs";
+import {
+  bdil,
+  bxonhj,
+  bzad,
+  bzi,
+  bzoj,
+  chhaw,
+  chhbell,
+  chhehilh,
+  chhenda,
+  chhxhita,
+  guz,
+  jgazh,
+  weteis,
+  wexhill,
+  weya,
+  wezad,
+  witj,
+  xullia,
+} from "@site/src/const/audio";
 
 export const verbs: Word[] = [
   {
-    zapoteco: "chhenhe",
+    zapoteco: "chhenda",
     word: <Translate id={"want"} />, // querer
     img: require("@site/static/img/want.svg").default,
+    audio: chhenda,
   },
   {
     zapoteco: "chhaw",
     word: <Translate id={"eat"} />, // comer
     img: require("@site/static/img/eat.svg").default,
+    audio: chhaw,
   },
   {
     zapoteco: "weyá",
     word: <Translate id={"dance"} />, // bailar
     img: require("@site/static/img/dance.svg").default,
+    audio: weya,
   },
   {
     zapoteco: "chhbell",
     word: <Translate id={"cry"} />, // llorar
     img: require("@site/static/img/cry.svg").default,
+    audio: chhbell,
   },
   {
     zapoteco: "chhxhita",
     word: <Translate id={"jump"} />, // brincar
     img: require("@site/static/img/jump.svg").default,
+    audio: chhxhita,
   },
   {
     zapoteco: "wexhill",
     word: <Translate id={"laugh"} />, // reir
     img: require("@site/static/img/laugh.svg").default,
+    audio: wexhill,
   },
   {
-    zapoteco: "guzj",
+    zapoteco: "jgazh",
     word: <Translate id={"shower"} />, // bañar
     img: require("@site/static/img/shower.svg").default,
+    audio: jgazh,
   },
   {
     zapoteco: "guz", // TODO: ask about this
     word: <Translate id={"sow"} />, // sembrar
     img: require("@site/static/img/sow.svg").default,
+    audio: guz,
   },
   {
     zapoteco: "witj",
     word: <Translate id={"play"} />, // jugar
     img: require("@site/static/img/play.svg").default,
+    audio: witj,
   },
   {
     zapoteco: "weteis",
     word: <Translate id={"sleep"} />, // dormir
     img: require("@site/static/img/sleep.svg").default,
+    audio: weteis,
   },
   // TODO: ask about these spelling
   {
     zapoteco: "bxonhj",
     word: <Translate id={"run"} />, // correr
     img: require("@site/static/img/run.svg").default,
+    audio: bxonhj,
   },
   {
     zapoteco: "bzoj",
     word: <Translate id={"write"} />, // escribir
     img: require("@site/static/img/write.svg").default,
+    audio: bzoj,
   },
   {
     zapoteco: "bzi",
     word: <Translate id={"clean"} />, // limpiar
     img: require("@site/static/img/clean.svg").default,
+    audio: bzi,
   },
   {
     zapoteco: "budil/bdil",
     word: <Translate id={"fight"} />, // pelear
     img: require("@site/static/img/fight.svg").default,
+    audio: bdil,
   },
   {
     zapoteco: "wezad",
     word: <Translate id={"practice"} />, // practicar
     img: require("@site/static/img/practice.svg").default,
+    audio: wezad,
   },
   {
     zapoteco: "bzad",
     word: <Translate id={"study"} />, // estudiar
     img: require("@site/static/img/study.svg").default,
+    audio: bzad,
   },
   {
     zapoteco: "chhehilh",
     word: <Translate id={"search"} />, // buscar
     img: require("@site/static/img/look.svg").default,
+    audio: chhehilh,
   },
   {
     zapoteco: "xullia",
     word: <Translate id={"look"} />, // mirar
     img: require("@site/static/img/look.svg").default,
+    audio: xullia,
   },
   {
     zapoteco: "jezilalla",
