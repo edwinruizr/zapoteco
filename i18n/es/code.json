@@ -678,12 +678,6 @@
   "niece": {
     "message": "sobrina"
   },
-  "grandson": {
-    "message": "nieto"
-  },
-  "granddaughter": {
-    "message": "nieta"
-  },
   "step mother": {
     "message": "madrastra"
   },
@@ -971,5 +965,8 @@
   },
   "young_lady": {
     "message": "jovencita"
+  },
+  "grandson/granddaughter": {
+    "message": "nieto/nieta"
   }
 }

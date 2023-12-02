@@ -29,7 +29,6 @@ const Herbs: HerbalCardProps[] = [
         It is prepared in tea and is used for menstruation cramps.
       </Translate>
     ),
-    // audio: kuanorhegano, //TODO: correct audio
     img: "oregano.jpg",
     tags: ["tea", "menstruation", "cramps"],
   },
@@ -42,7 +41,6 @@ const Herbs: HerbalCardProps[] = [
         water is boiling, add two tips of rosemary, turn it off and serve.
       </Translate>
     ),
-    // audio: romher, //TODO: correct audio
     img: "rosemary.jpg",
     tags: ["tea", "high blood pressure"],
   },
@@ -54,7 +52,6 @@ const Herbs: HerbalCardProps[] = [
         For stomach pain and irritated eyes.
       </Translate>
     ),
-    //audio: manzaniy, //TODO: correct audio
     img: "chamomile.jpg",
     tags: ["tea", "stomachache", "eyes"],
   },
@@ -68,7 +65,6 @@ const Herbs: HerbalCardProps[] = [
         It is used for coughs, taken in tea with eucalyptus and garlic.
       </Translate>
     ),
-    // audio: yejbumbil, //TODO: correct audio
     img: "bougainvillea.jpg",
     tags: ["tea", "cough"],
   },

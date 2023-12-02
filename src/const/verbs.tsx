@@ -37,7 +37,7 @@ export const verbs: Word[] = [
     audio: chhaw,
   },
   {
-    zapoteco: "weyá",
+    zapoteco: "chhya'",
     word: <Translate id={"dance"} />, // bailar
     img: require("@site/static/img/dance.svg").default,
     audio: weya,
@@ -55,86 +55,85 @@ export const verbs: Word[] = [
     audio: chhxhita,
   },
   {
-    zapoteco: "wexhill",
+    zapoteco: "chhxhill",
     word: <Translate id={"laugh"} />, // reir
     img: require("@site/static/img/laugh.svg").default,
     audio: wexhill,
   },
   {
-    zapoteco: "jgazh",
+    zapoteco: "chhazj",
     word: <Translate id={"shower"} />, // bañar
     img: require("@site/static/img/shower.svg").default,
     audio: jgazh,
   },
   {
-    zapoteco: "guz", // TODO: ask about this
+    zapoteco: "chhaz",
     word: <Translate id={"sow"} />, // sembrar
     img: require("@site/static/img/sow.svg").default,
     audio: guz,
   },
   {
-    zapoteco: "witj",
+    zapoteco: "chhitja",
     word: <Translate id={"play"} />, // jugar
     img: require("@site/static/img/play.svg").default,
     audio: witj,
   },
   {
-    zapoteco: "weteis",
+    zapoteco: "chheisa",
     word: <Translate id={"sleep"} />, // dormir
     img: require("@site/static/img/sleep.svg").default,
     audio: weteis,
   },
-  // TODO: ask about these spelling
   {
-    zapoteco: "bxonhj",
+    zapoteco: "chhxhonja",
     word: <Translate id={"run"} />, // correr
     img: require("@site/static/img/run.svg").default,
     audio: bxonhj,
   },
   {
-    zapoteco: "bzoj",
+    zapoteco: "chhzoj",
     word: <Translate id={"write"} />, // escribir
     img: require("@site/static/img/write.svg").default,
     audio: bzoj,
   },
   {
-    zapoteco: "bzi",
+    zapoteco: "chhxhia",
     word: <Translate id={"clean"} />, // limpiar
     img: require("@site/static/img/clean.svg").default,
     audio: bzi,
   },
   {
-    zapoteco: "budil/bdil",
+    zapoteco: "chhdila",
     word: <Translate id={"fight"} />, // pelear
     img: require("@site/static/img/fight.svg").default,
     audio: bdil,
   },
   {
-    zapoteco: "wezad",
+    zapoteco: "chhsed",
     word: <Translate id={"practice"} />, // practicar
     img: require("@site/static/img/practice.svg").default,
     audio: wezad,
   },
   {
-    zapoteco: "bzad",
+    zapoteco: "chhsed",
     word: <Translate id={"study"} />, // estudiar
     img: require("@site/static/img/study.svg").default,
     audio: bzad,
   },
   {
-    zapoteco: "chhehilh",
+    zapoteco: "chheyilj",
     word: <Translate id={"search"} />, // buscar
     img: require("@site/static/img/look.svg").default,
     audio: chhehilh,
   },
   {
-    zapoteco: "xullia",
+    zapoteco: "chhyua",
     word: <Translate id={"look"} />, // mirar
     img: require("@site/static/img/look.svg").default,
     audio: xullia,
   },
   {
-    zapoteco: "jezilalla",
+    zapoteco: "chhezilhalla",
     word: <Translate id={"rest"} />, // descansar
     img: require("@site/static/img/rest.svg").default,
   },
@@ -232,11 +231,11 @@ export const verbConjugations: VerbTenses[] = [
       zapoteco: {
         I: "Nhed gunda",
         You: "Lhe gundu",
-        he_she: "Leba guneba",
-        We: "Chhaw gunechhu",
-        You_all: "Lhe'e gunelhe",
+        he_she: "Leba gunheba",
+        We: "Chhaw gunhechhu",
+        You_all: "Lhe'e gunhelhe",
         They: "Lekba gunkeba",
-        Everyone: "Yugchhu gunechhu",
+        Everyone: "Yugchhu gunhechhu",
       },
     },
     present: {
@@ -253,11 +252,11 @@ export const verbConjugations: VerbTenses[] = [
       zapoteco: {
         I: "Nhed chhenda",
         You: "Lhe chhendu",
-        he_she: "Leba chhenaba",
-        We: "Chhaw chhenechhu",
-        You_all: "Lhe'e chhennelhe",
+        he_she: "Leba chhenheba",
+        We: "Chhaw chhenhechhu",
+        You_all: "Lhe'e chhenhelhe",
         They: "Lekba chhenkeba",
-        Everyone: "Yugchhu chhenechhu",
+        Everyone: "Yugchhu chhenhechhu",
       },
     },
     future: {
@@ -276,13 +275,13 @@ export const verbConjugations: VerbTenses[] = [
         ),
       },
       zapoteco: {
-        I: "Nhed ganda",
-        You: "Lhe gandu",
-        he_she: "Leba geneba",
-        We: "Chhaw genechhu",
-        You_all: "Lhe'e genelhe",
+        I: "Nhed genda",
+        You: "Lhe gendu",
+        he_she: "Leba genheba",
+        We: "Chhaw genhechhu",
+        You_all: "Lhe'e genhelhe",
         They: "Lekba genkeba",
-        Everyone: "Yugchhu genechhu",
+        Everyone: "Yugchhu genhechhu",
       },
     },
   },
@@ -300,13 +299,13 @@ export const verbConjugations: VerbTenses[] = [
         Everyone: <Translate id={"everyone_waited"}>Everyone waited</Translate>,
       },
       zapoteco: {
-        I: "Nhed blez",
-        You: "Lhe blezu",
-        he_she: "Leba blezba",
-        We: "Chhaw blezchhu",
-        You_all: "Lhe'e blezlhe",
-        They: "Lekba blezekba",
-        Everyone: "Yugchhu blezchhu",
+        I: "Nhed wlhez",
+        You: "Lhe wlhezu",
+        he_she: "Leba wlhezba",
+        We: "Chhaw wlhezchhu",
+        You_all: "Lhe'e wlhezlhe",
+        They: "Lekba wlhezkba",
+        Everyone: "Yugchhu wlhezchhu",
       },
     },
     present: {
@@ -321,13 +320,13 @@ export const verbConjugations: VerbTenses[] = [
         Everyone: <Translate id={"everyone_waits"}>Everyone waits</Translate>,
       },
       zapoteco: {
-        I: "Nhed shebz",
-        You: "Lhe shebzu",
-        he_she: "Leba shebzba",
-        We: "Chhaw shebzchhu",
-        You_all: "Lhe'e shebzlhe",
-        They: "Lekba shebzekba",
-        Everyone: "Yugchhu shebzchhu",
+        I: "Nhed chhbez",
+        You: "Lhe chhbezu",
+        he_she: "Leba chhbezba",
+        We: "Chhaw chhbezchhu",
+        You_all: "Lhe'e chhbezlhe",
+        They: "Lekba chhesebezkba",
+        Everyone: "Yugchhu chhbezchhu",
       },
     },
     future: {
@@ -351,7 +350,7 @@ export const verbConjugations: VerbTenses[] = [
         he_she: "Leba kuezba",
         We: "Chhaw kuezchhu",
         You_all: "Lhe'e kuezlhe",
-        They: "Lekba kuezekba",
+        They: "Lekba kuezkba",
         Everyone: "Yugchhu kuezchhu",
       },
     },

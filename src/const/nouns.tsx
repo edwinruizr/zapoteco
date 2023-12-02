@@ -18,15 +18,15 @@ import {
 
 export const pronouns: Noun[] = [
   {
-    zapoteco: "nheed",
+    zapoteco: "nhed",
     noun: <Translate id={"me"} />,
   },
   {
-    zapoteco: "lhee",
+    zapoteco: "lhe",
     noun: <Translate id={"you"} />,
   },
   {
-    zapoteco: "lheba",
+    zapoteco: "leba",
     noun: <Translate id={"he"} />,
   },
   {
@@ -42,7 +42,7 @@ export const pronouns: Noun[] = [
     noun: <Translate id={"them (all female)"} />,
   },
   {
-    zapoteco: "chha'w",
+    zapoteco: "chhaw",
     noun: <Translate id={"us (includes person you are talking to)"} />,
   },
   {
@@ -50,7 +50,7 @@ export const pronouns: Noun[] = [
     noun: <Translate id={"us (excluding person you are talking to)"} />,
   },
   {
-    zapoteco: "lhe'e",
+    zapoteco: "lhee",
     noun: <Translate id={"you all (excluding me)"} />,
   },
   {
@@ -96,52 +96,32 @@ export const nouns: Noun[] = [
     audio: bibisha,
   },
   {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"aunt"} />,
+    zapoteco: "xhesú",
+    noun: <Translate id={"grandson/granddaughter"} />, // nieto/nieta
   },
   {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"uncle"} />,
-  },
-  {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"nephew"} />, // sobrino
-  },
-  {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"niece"} />, // sobrina
-  },
-  {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"grandson"} />, // nieto
-  },
-  {
-    zapoteco: "", // TODO: ask about this
-    noun: <Translate id={"granddaughter"} />, // nieta
-  },
-  {
-    zapoteco: "gen",
+    zapoteco: "we'n",
     noun: <Translate id={"newborn"} />,
     img: require("@site/static/img/newborn.svg").default,
     audio: gen,
   },
   {
-    zapoteco: "bdaw",
+    zapoteco: "bdau",
     noun: <Translate id={"baby"} />,
     img: require("@site/static/img/baby.svg").default,
     audio: bdaw,
   },
   {
-    zapoteco: "bedaw",
+    zapoteco: "bidau",
     noun: <Translate id={"child"} />,
   },
   {
-    zapoteco: "bejueg",
-    noun: <Translate id={"young_man"} />,
+    zapoteco: "biwegw",
+    noun: <Translate id={"young_man"}>young man</Translate>,
   },
   {
-    zapoteco: "nuljueg",
-    noun: <Translate id={"young_lady"} />,
+    zapoteco: "nhulhwegw",
+    noun: <Translate id={"young_lady"}>young lady</Translate>,
   },
   {
     zapoteco: "tawa",
@@ -162,7 +142,7 @@ export const nouns: Noun[] = [
     audio: tawgucha,
   },
   {
-    zapoteco: "xtawagucha",
+    zapoteco: "xtawgucha",
     noun: <Translate id={"great grandfather"} />,
     img: require("@site/static/img/great_grandfather.svg").default,
     audio: xtawagucha,
