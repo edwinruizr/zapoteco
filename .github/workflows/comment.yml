@@ -12,9 +12,12 @@ jobs:
     if: |
       github.event.issue.pull_request &&
       github.event.issue.state == 'open' && contains(github.event.comment.body, 'test')
+    env:
+      JSON_DOC: ${{ toJSON(github.event) }}
     steps:
       - name: test
         run: |
           echo "${{ github.event.repository.full_name }}";
           echo "${GITHUB_SHA}";
-          echo "${{ github.event }}";
+          printf '%s\n' "$JSON_DOC" > foo.json;
+          cat foo.json;
